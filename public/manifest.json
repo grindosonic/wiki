@@ -1,14 +1,14 @@
 {
   "name": "GrindoSonic Wiki",
   "short_name": "GrindoSonic Wiki",
-  "start_url": "/",
-  "scope": "/",
+  "start_url": "/wiki/",
+  "scope": "/wiki/",
   "display": "standalone",
   "background_color": "#000000",
   "theme_color": "#000000",
   "icons": [
     {
-      "src": "/favicon.svg",
+      "src": "/wiki/favicon.svg",
       "sizes": "512x512"
     }
   ]

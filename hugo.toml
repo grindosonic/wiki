@@ -1,4 +1,4 @@
-baseURL = 'https://wiki.grindosonic.com/'
+baseURL = "https://grindosonic.github.io/wiki/"
 languageCode = 'en-us'
 title = 'GrindoSonic Wiki'
 theme = "hugo-book"
