@@ -14,3 +14,8 @@ theme = "hugo-book"
 [markup.tableOfContents]
   startLevel = 1
   endLevel = 2
+
+# GitHub Pages configuration
+[caches]
+  [caches.images]
+    dir = ":cacheDir/images"
