@@ -1,0 +1,16 @@
+baseURL = 'https://wiki.grindosonic.com/'
+languageCode = 'en-us'
+title = 'GrindoSonic Wiki'
+theme = "hugo-book"
+
+[params]
+  BookTheme = "dark"     # auto, light, or dark
+  BookSection = "docs"   # content/docs/ will be your wiki
+  BookSearch = true      # enable built-in search
+  BookToC = true         # enable table of contents
+
+# Table of Contents configuration
+[markup]
+[markup.tableOfContents]
+  startLevel = 1
+  endLevel = 2

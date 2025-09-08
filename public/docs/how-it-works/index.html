@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Physics and principles behind impulse excitation testing">
+<meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff">
+<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#343a40">
+<meta name="color-scheme" content="light dark"><meta property="og:url" content="http://localhost:1313/docs/how-it-works/">
+  <meta property="og:site_name" content="GrindoSonic Wiki">
+  <meta property="og:title" content="How It Works">
+  <meta property="og:description" content="Physics and principles behind impulse excitation testing">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="website">
+<title>How It Works | GrindoSonic Wiki</title>
+<link rel="icon" href="/favicon.png" >
+<link rel="manifest" href="/manifest.json">
+<link rel="canonical" href="http://localhost:1313/docs/how-it-works/">
+<link rel="stylesheet" href="/book.min.43da4f674bafcc775ef6b9d9265bc9647ba28b480dd118ef9df73c802e974236.css" integrity="sha256-Q9pPZ0uvzHde9rnZJlvJZHuii0gN0Rjvnfc8gC6XQjY=" crossorigin="anonymous">
+  <script defer src="/fuse.min.js"></script>
+  <script defer src="/en.search.min.7e06a80d8b9f7220b47fc24ab22987080ad9a28bcc0c7e772432b04b23f0afe3.js" integrity="sha256-fgaoDYufciC0f8JKsimHCArZoovMDH53JDKwSyPwr&#43;M=" crossorigin="anonymous"></script>
+<link rel="alternate" type="application/rss+xml" href="http://localhost:1313/docs/how-it-works/index.xml" title="GrindoSonic Wiki" />
+<!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+  
+</head>
+<body dir="ltr" class="book-kind-section book-type-docs book-layout-">
+  <input type="checkbox" class="hidden toggle" id="menu-control" />
+  <input type="checkbox" class="hidden toggle" id="toc-control" />
+  <main class="container flex">
+    
+<aside class="book-menu">
+  <div class="book-menu-content">
+    
+  <nav>
+<h2 class="book-brand">
+  <a class="flex align-center" href="/"><span>GrindoSonic Wiki</span>
+  </a>
+</h2>
+
+
+<div class="book-search hidden">
+  <input type="text" id="book-search-input" placeholder="Search" aria-label="Search" maxlength="64" data-hotkeys="s/" />
+  <div class="book-search-spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+<script>document.querySelector(".book-search").classList.remove("hidden")</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/getting-started/" class="">Getting Started</a>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/getting-started/equipment-setup/" class="">Equipment Setup</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/getting-started/measurement-procedure/" class="">Measurement Procedure</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/getting-started/data-analysis/" class="">Data Analysis</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/how-it-works/" class="active">How It Works</a>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/applications/" class="">Applications</a>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/materials/" class="">Materials</a>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/troubleshooting/" class="">Troubleshooting</a>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</nav>
+
+
+
+
+  <script>(function(){var e=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(){localStorage.setItem("menu.scrollTop",e.scrollTop)}),e.scrollTop=localStorage.getItem("menu.scrollTop")})()</script>
+
+
+
+  </div>
+</aside>
+ 
+
+    <div class="book-page">
+      <header class="book-header">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="/svg/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <h3>How It Works</h3>
+
+  <label for="toc-control">
+    
+    <img src="/svg/toc.svg" class="book-icon" alt="Table of Contents" />
+    
+  </label>
+</div>
+
+
+  
+  <aside class="hidden clearfix">
+    
+  
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#how-it-works">How It Works</a>
+      <ul>
+        <li><a href="#physical-principles">Physical Principles</a></li>
+        <li><a href="#mathematical-relationships">Mathematical Relationships</a></li>
+        <li><a href="#measurement-modes">Measurement Modes</a></li>
+        <li><a href="#factors-affecting-results">Factors Affecting Results</a></li>
+        <li><a href="#frequency-analysis">Frequency Analysis</a></li>
+        <li><a href="#error-sources-and-corrections">Error Sources and Corrections</a></li>
+        <li><a href="#advanced-considerations">Advanced Considerations</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+
+
+  </aside>
+  
+ 
+      </header>
+
+      
+      
+  <article class="markdown book-article"><h1 id="how-it-works">
+  How It Works
+  
+  <a class="anchor" href="#how-it-works">#</a>
+  
+</h1>
+<p>Understanding the physics behind impulse excitation testing helps ensure accurate measurements and proper interpretation of results.</p>
+<h2 id="physical-principles">
+  Physical Principles
+  
+  <a class="anchor" href="#physical-principles">#</a>
+  
+</h2>
+<h3 id="vibration-theory">
+  Vibration Theory
+  
+  <a class="anchor" href="#vibration-theory">#</a>
+  
+</h3>
+<p>When a material specimen is excited by an impulse, it vibrates at its natural frequencies. These frequencies are determined by:</p>
+<ul>
+<li><strong>Material properties</strong> (elastic moduli, density)</li>
+<li><strong>Geometry</strong> (dimensions, shape)</li>
+<li><strong>Boundary conditions</strong> (support configuration)</li>
+</ul>
+<h3 id="natural-frequencies">
+  Natural Frequencies
+  
+  <a class="anchor" href="#natural-frequencies">#</a>
+  
+</h3>
+<p>The natural frequencies of a vibrating system are the frequencies at which the system oscillates when disturbed from equilibrium:</p>
+<ul>
+<li><strong>First flexural mode</strong> - Primary bending vibration</li>
+<li><strong>First torsional mode</strong> - Primary twisting vibration</li>
+<li><strong>Higher modes</strong> - Additional vibration modes</li>
+</ul>
+<h2 id="mathematical-relationships">
+  Mathematical Relationships
+  
+  <a class="anchor" href="#mathematical-relationships">#</a>
+  
+</h2>
+<h3 id="flexural-vibration">
+  Flexural Vibration
+  
+  <a class="anchor" href="#flexural-vibration">#</a>
+  
+</h3>
+<p>For a rectangular bar in flexural vibration:</p>
+<pre tabindex="0"><code>f_f = (k_f / 2π) × √(E / ρ) × (t / L²)
+</code></pre><h3 id="torsional-vibration">
+  Torsional Vibration
+  
+  <a class="anchor" href="#torsional-vibration">#</a>
+  
+</h3>
+<p>For torsional vibration:</p>
+<pre tabindex="0"><code>f_t = (k_t / 2π) × √(G / ρ) × (1 / L)
+</code></pre><h3 id="property-relationships">
+  Property Relationships
+  
+  <a class="anchor" href="#property-relationships">#</a>
+  
+</h3>
+<ul>
+<li><strong>Young&rsquo;s Modulus (E)</strong>: Resistance to axial deformation</li>
+<li><strong>Shear Modulus (G)</strong>: Resistance to shear deformation</li>
+<li><strong>Poisson&rsquo;s Ratio (ν)</strong>: Ratio of lateral to axial strain</li>
+</ul>
+<h2 id="measurement-modes">
+  Measurement Modes
+  
+  <a class="anchor" href="#measurement-modes">#</a>
+  
+</h2>
+<h3 id="flexural-mode">
+  Flexural Mode
+  
+  <a class="anchor" href="#flexural-mode">#</a>
+  
+</h3>
+<ul>
+<li>Measures Young&rsquo;s modulus</li>
+<li>Specimen bends during vibration</li>
+<li>Most sensitive to material stiffness</li>
+<li>Primary measurement mode</li>
+</ul>
+<h3 id="torsional-mode">
+  Torsional Mode
+  
+  <a class="anchor" href="#torsional-mode">#</a>
+  
+</h3>
+<ul>
+<li>Measures shear modulus</li>
+<li>Specimen twists during vibration</li>
+<li>Provides information about shear stiffness</li>
+<li>Secondary measurement mode</li>
+</ul>
+<h2 id="factors-affecting-results">
+  Factors Affecting Results
+  
+  <a class="anchor" href="#factors-affecting-results">#</a>
+  
+</h2>
+<h3 id="sample-geometry">
+  Sample Geometry
+  
+  <a class="anchor" href="#sample-geometry">#</a>
+  
+</h3>
+<ul>
+<li><strong>Aspect ratio</strong>: Length to width ratio</li>
+<li><strong>Thickness</strong>: Affects frequency calculations</li>
+<li><strong>Symmetry</strong>: Ensures pure mode shapes</li>
+<li><strong>Surface finish</strong>: Affects boundary conditions</li>
+</ul>
+<h3 id="material-properties">
+  Material Properties
+  
+  <a class="anchor" href="#material-properties">#</a>
+  
+</h3>
+<ul>
+<li><strong>Isotropy</strong>: Assumption of uniform properties</li>
+<li><strong>Homogeneity</strong>: Uniform composition throughout</li>
+<li><strong>Density</strong>: Required for modulus calculations</li>
+<li><strong>Damping</strong>: Affects peak sharpness</li>
+</ul>
+<h3 id="environmental-conditions">
+  Environmental Conditions
+  
+  <a class="anchor" href="#environmental-conditions">#</a>
+  
+</h3>
+<ul>
+<li><strong>Temperature</strong>: Affects material properties</li>
+<li><strong>Humidity</strong>: Can affect damping</li>
+<li><strong>Vibration isolation</strong>: Prevents external interference</li>
+<li><strong>Acoustic environment</strong>: Minimizes noise</li>
+</ul>
+<h2 id="frequency-analysis">
+  Frequency Analysis
+  
+  <a class="anchor" href="#frequency-analysis">#</a>
+  
+</h2>
+<h3 id="fast-fourier-transform-fft">
+  Fast Fourier Transform (FFT)
+  
+  <a class="anchor" href="#fast-fourier-transform-fft">#</a>
+  
+</h3>
+<p>The time-domain vibration signal is converted to frequency domain:</p>
+<ul>
+<li><strong>Resolution</strong>: Determined by sampling rate and window size</li>
+<li><strong>Windowing</strong>: Reduces spectral leakage</li>
+<li><strong>Averaging</strong>: Improves signal-to-noise ratio</li>
+</ul>
+<h3 id="peak-identification">
+  Peak Identification
+  
+  <a class="anchor" href="#peak-identification">#</a>
+  
+</h3>
+<p>Natural frequencies appear as peaks in the frequency spectrum:</p>
+<ul>
+<li><strong>Magnitude</strong>: Peak height indicates mode strength</li>
+<li><strong>Sharpness</strong>: Narrow peaks indicate low damping</li>
+<li><strong>Consistency</strong>: Multiple measurements should yield same frequencies</li>
+</ul>
+<h2 id="error-sources-and-corrections">
+  Error Sources and Corrections
+  
+  <a class="anchor" href="#error-sources-and-corrections">#</a>
+  
+</h2>
+<h3 id="systematic-errors">
+  Systematic Errors
+  
+  <a class="anchor" href="#systematic-errors">#</a>
+  
+</h3>
+<ul>
+<li><strong>Geometry measurement</strong>: Precise dimensional measurements</li>
+<li><strong>Density determination</strong>: Accurate mass and volume</li>
+<li><strong>Support effects</strong>: Minimal contact area</li>
+<li><strong>Temperature effects</strong>: Thermal expansion corrections</li>
+</ul>
+<h3 id="random-errors">
+  Random Errors
+  
+  <a class="anchor" href="#random-errors">#</a>
+  
+</h3>
+<ul>
+<li><strong>Excitation variability</strong>: Consistent impulse application</li>
+<li><strong>Sensor positioning</strong>: Repeatable placement</li>
+<li><strong>Environmental noise</strong>: Vibration isolation</li>
+<li><strong>Signal processing</strong>: Proper FFT parameters</li>
+</ul>
+<h2 id="advanced-considerations">
+  Advanced Considerations
+  
+  <a class="anchor" href="#advanced-considerations">#</a>
+  
+</h2>
+<h3 id="anisotropic-materials">
+  Anisotropic Materials
+  
+  <a class="anchor" href="#anisotropic-materials">#</a>
+  
+</h3>
+<ul>
+<li><strong>Directional properties</strong>: Different moduli in different directions</li>
+<li><strong>Orientation effects</strong>: Sample orientation relative to material axes</li>
+<li><strong>Complex geometries</strong>: Non-standard specimen shapes</li>
+</ul>
+<h3 id="high-temperature-testing">
+  High-Temperature Testing
+  
+  <a class="anchor" href="#high-temperature-testing">#</a>
+  
+</h3>
+<ul>
+<li><strong>Thermal expansion</strong>: Dimension changes with temperature</li>
+<li><strong>Property variation</strong>: Modulus changes with temperature</li>
+<li><strong>Support materials</strong>: High-temperature compatible supports</li>
+<li><strong>Damping analysis</strong>: Complex modulus components</li>
+</ul>
+</article>
+ 
+      
+
+      <footer class="book-footer">
+        
+  <div class="flex flex-wrap justify-between">
+
+
+
+
+
+</div>
+
+
+
+
+
+  
+  
+  
+  <div class="flex flex-wrap justify-between">
+    <span>
+    
+      <a href="/docs/getting-started/data-analysis/" class="flex align-center book-icon">
+        <img src="/svg/backward.svg" class="book-icon" alt="Previous" title="Data Analysis" />
+        <span>Data Analysis</span>
+      </a>
+    
+    </span>
+    <span>
+    
+      <a href="/docs/applications/" class="flex align-center book-icon">
+        <span>Applications</span>
+        <img src="/svg/forward.svg" class="book-icon" alt="Next" title="Applications" />
+      </a>
+    
+    </span>
+  </div>
+  
+
+
+
+
+  <script>(function(){function e(e){const t=window.getSelection(),n=document.createRange();n.selectNodeContents(e),t.removeAllRanges(),t.addRange(n)}document.querySelectorAll("pre code").forEach(t=>{t.addEventListener("click",function(){if(window.getSelection().toString())return;e(t.parentElement),navigator.clipboard&&navigator.clipboard.writeText(t.parentElement.textContent)})})})()</script>
+
+
+ 
+        
+      </footer>
+
+      
+  
+  <div class="book-comments">
+
+</div>
+  
+ 
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+
+<aside class="book-toc">
+  <div class="book-toc-content">
+    
+  
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#how-it-works">How It Works</a>
+      <ul>
+        <li><a href="#physical-principles">Physical Principles</a></li>
+        <li><a href="#mathematical-relationships">Mathematical Relationships</a></li>
+        <li><a href="#measurement-modes">Measurement Modes</a></li>
+        <li><a href="#factors-affecting-results">Factors Affecting Results</a></li>
+        <li><a href="#frequency-analysis">Frequency Analysis</a></li>
+        <li><a href="#error-sources-and-corrections">Error Sources and Corrections</a></li>
+        <li><a href="#advanced-considerations">Advanced Considerations</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+
+
+  </div>
+</aside>
+
+ 
+  </main>
+
+  
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

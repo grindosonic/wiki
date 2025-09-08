@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Material Properties on GrindoSonic Wiki</title>
+    <link>http://localhost:1313/docs/material-properties/</link>
+    <description>Recent content in Material Properties on GrindoSonic Wiki</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:1313/docs/material-properties/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Vibrations and Moduli</title>
+      <link>http://localhost:1313/docs/material-properties/vibrations-and-moduli/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/material-properties/vibrations-and-moduli/</guid>
+      <description>&lt;h1 id=&#34;vibrations-and-moduli&#34;&gt;&#xA;  Vibrations and Moduli&#xA;  &#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#vibrations-and-moduli&#34;&gt;#&lt;/a&gt;&#xA;  &#xA;&lt;/h1&gt;&#xA;&lt;p&gt;The relationship between vibrational behavior and elastic moduli is fundamental to impulse excitation testing. Understanding this relationship is crucial for accurate property determination and material characterization.&lt;/p&gt;&#xA;&lt;h2 id=&#34;physical-principles&#34;&gt;&#xA;  Physical Principles&#xA;  &#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#physical-principles&#34;&gt;#&lt;/a&gt;&#xA;  &#xA;&lt;/h2&gt;&#xA;&lt;h3 id=&#34;vibration-theory&#34;&gt;&#xA;  Vibration Theory&#xA;  &#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#vibration-theory&#34;&gt;#&lt;/a&gt;&#xA;  &#xA;&lt;/h3&gt;&#xA;&lt;p&gt;When a material specimen is excited by an impulse, it vibrates at its natural frequencies. These frequencies are determined by:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Material properties&lt;/strong&gt; (elastic moduli, density)&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Geometry&lt;/strong&gt; (dimensions, shape)&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Boundary conditions&lt;/strong&gt; (support configuration)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;natural-frequencies&#34;&gt;&#xA;  Natural Frequencies&#xA;  &#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#natural-frequencies&#34;&gt;#&lt;/a&gt;&#xA;  &#xA;&lt;/h3&gt;&#xA;&lt;p&gt;The natural frequencies of a vibrating system are the frequencies at which the system oscillates when disturbed from equilibrium. For impulse excitation testing:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Fundamentals of Damping</title>
+      <link>http://localhost:1313/docs/material-properties/fundamentals-of-damping/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/material-properties/fundamentals-of-damping/</guid>
+      <description>&lt;h1 id=&#34;fundamentals-of-damping&#34;&gt;&#xA;  Fundamentals of Damping&#xA;  &#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#fundamentals-of-damping&#34;&gt;#&lt;/a&gt;&#xA;  &#xA;&lt;/h1&gt;&#xA;&lt;p&gt;Damping is a crucial material property that describes how materials dissipate energy during vibration. Understanding damping is essential for impulse excitation testing and material characterization.&lt;/p&gt;&#xA;&lt;h2 id=&#34;what-is-damping&#34;&gt;&#xA;  What is Damping?&#xA;  &#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#what-is-damping&#34;&gt;#&lt;/a&gt;&#xA;  &#xA;&lt;/h2&gt;&#xA;&lt;h3 id=&#34;definition&#34;&gt;&#xA;  Definition&#xA;  &#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#definition&#34;&gt;#&lt;/a&gt;&#xA;  &#xA;&lt;/h3&gt;&#xA;&lt;p&gt;Damping is the process by which vibrational energy is dissipated in a material, converting mechanical energy into heat. It&amp;rsquo;s a fundamental property that affects material behavior and performance.&lt;/p&gt;&#xA;&lt;h3 id=&#34;physical-mechanisms&#34;&gt;&#xA;  Physical Mechanisms&#xA;  &#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#physical-mechanisms&#34;&gt;#&lt;/a&gt;&#xA;  &#xA;&lt;/h3&gt;&#xA;&lt;p&gt;&lt;strong&gt;Material damping:&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Frequency, Resonance, and Quality Factor</title>
+      <link>http://localhost:1313/docs/material-properties/frequency-resonance-quality-factor/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/material-properties/frequency-resonance-quality-factor/</guid>
+      <description>&lt;h1 id=&#34;frequency-resonance-and-quality-factor&#34;&gt;&#xA;  Frequency, Resonance, and Quality Factor&#xA;  &#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#frequency-resonance-and-quality-factor&#34;&gt;#&lt;/a&gt;&#xA;  &#xA;&lt;/h1&gt;&#xA;&lt;p&gt;Understanding the relationship between frequency, resonance, and quality factor is fundamental to impulse excitation testing and material characterization.&lt;/p&gt;&#xA;&lt;h2 id=&#34;natural-frequencies&#34;&gt;&#xA;  Natural Frequencies&#xA;  &#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#natural-frequencies&#34;&gt;#&lt;/a&gt;&#xA;  &#xA;&lt;/h2&gt;&#xA;&lt;h3 id=&#34;definition&#34;&gt;&#xA;  Definition&#xA;  &#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#definition&#34;&gt;#&lt;/a&gt;&#xA;  &#xA;&lt;/h3&gt;&#xA;&lt;p&gt;Natural frequencies are the frequencies at which a system oscillates when disturbed from equilibrium. For impulse excitation testing, these frequencies are directly related to material properties.&lt;/p&gt;&#xA;&lt;h3 id=&#34;physical-significance&#34;&gt;&#xA;  Physical Significance&#xA;  &#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#physical-significance&#34;&gt;#&lt;/a&gt;&#xA;  &#xA;&lt;/h3&gt;&#xA;&lt;p&gt;&lt;strong&gt;Material properties:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Elastic moduli&lt;/li&gt;&#xA;&lt;li&gt;Density&lt;/li&gt;&#xA;&lt;li&gt;Geometry&lt;/li&gt;&#xA;&lt;li&gt;Boundary conditions&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;System characteristics:&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
