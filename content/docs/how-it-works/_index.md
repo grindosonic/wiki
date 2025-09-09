@@ -16,7 +16,7 @@ The fundamental physics behind impulse excitation. A simple mechanical impulse e
 ### [Tapping Test Method](/docs/how-it-works/tapping-test-method/)
 The traditional foundation of material testing. Tapping materials is a quick, non-destructive method to assess internal strength and structural integrity, revealing defects like cracks, voids, or changes in density.
 
-### [Impulse Excitation vs Destructive Testing](/docs/how-it-works/iet-vs-destructive-testing/)
+### [IET vs Destructive Testing](/docs/how-it-works/iet-vs-destructive-testing/)
 A comprehensive comparison of IET and destructive testing methods. Learn when to use each approach, their advantages and limitations, and how to choose the right method for your specific needs.
 
 ## Physical Principles

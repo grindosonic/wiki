@@ -1,5 +1,5 @@
 ---
-title: "Impulse Excitation vs Destructive Testing: A Comprehensive Comparison"
+title: "IET vs Destructive Testing"
 weight: 40
 ---
 

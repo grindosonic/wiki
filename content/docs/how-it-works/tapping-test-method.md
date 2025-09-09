@@ -1,5 +1,5 @@
 ---
-title: "Tapping Test Method: Unveiling Material Strength"
+title: "Tapping Test Method"
 weight: 30
 ---
 

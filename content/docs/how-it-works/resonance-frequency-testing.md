@@ -1,5 +1,5 @@
 ---
-title: "Resonance Frequency Testing: The Physics Behind Impulse Excitation"
+title: "Resonance Frequency Testing"
 weight: 20
 ---
 
