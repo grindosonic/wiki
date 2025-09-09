@@ -8,6 +8,23 @@ weight: 30
 
 Impulse excitation testing finds applications across diverse industries for material characterization, quality control, and process optimization.
 
+## Key Applications
+
+### [Grinding Wheels](/docs/applications/grinding-wheels/)
+The foundational application that launched GrindoSonic. Grinding wheels made it clear why impulse excitation works—it reveals internal integrity with a single tap, measuring exact stiffness through resonance, mass, and dimensions.
+
+### Precision Mechanics
+- **Component validation** - Non-destructive testing of critical components
+- **Material screening** - Rapid evaluation of new alloys
+- **Quality assurance** - Production line testing
+- **Research and development** - Property investigation
+
+### Brake Components
+- **Brake pads** - Testing brake pad materials
+- **Rotors** - Validation of brake rotor properties
+- **Quality control** - Production line testing
+- **Performance validation** - Material behavior
+
 ## Industry Applications
 
 ### Aerospace
