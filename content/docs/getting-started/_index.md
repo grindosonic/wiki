@@ -8,6 +8,11 @@ weight: 10
 
 Everything you need to start measuring material properties with impulse excitation.
 
+## Understanding NDT
+
+### [Non-Destructive Material Testing: An Overview](/docs/getting-started/non-destructive-testing/)
+Learn about the broader field of non-destructive testing, including common techniques like ultrasonic, radiographic, and eddy current testing, and how they improve product reliability and quality control.
+
 ## Equipment Needed
 
 - **Impulse excitation system** - Main measurement unit

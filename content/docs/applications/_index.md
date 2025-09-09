@@ -13,6 +13,9 @@ Impulse excitation testing finds applications across diverse industries for mate
 ### [Grinding Wheels](/docs/applications/grinding-wheels/)
 The foundational application that launched GrindoSonic. Grinding wheels made it clear why impulse excitation works—it reveals internal integrity with a single tap, measuring exact stiffness through resonance, mass, and dimensions.
 
+### [Non-Destructive Testing in Additive Manufacturing](/docs/applications/ndt-additive-manufacturing/)
+Essential for ensuring reliability and safety of 3D-printed components. NDT in AM enables rapid feedback, continuous process improvement, and risk reduction in critical applications.
+
 ### Precision Mechanics
 - **Component validation** - Non-destructive testing of critical components
 - **Material screening** - Rapid evaluation of new alloys
