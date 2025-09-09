@@ -1,1 +1,41 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml"><url><loc>https://grindosonic.github.io/wiki/</loc></url><url><loc>https://grindosonic.github.io/wiki/docs/</loc></url><url><loc>https://grindosonic.github.io/wiki/docs/getting-started/</loc></url><url><loc>https://grindosonic.github.io/wiki/docs/getting-started/equipment-setup/</loc></url><url><loc>https://grindosonic.github.io/wiki/docs/getting-started/measurement-procedure/</loc></url><url><loc>https://grindosonic.github.io/wiki/docs/getting-started/data-analysis/</loc></url><url><loc>https://grindosonic.github.io/wiki/docs/how-it-works/</loc></url><url><loc>https://grindosonic.github.io/wiki/docs/applications/</loc></url><url><loc>https://grindosonic.github.io/wiki/docs/materials/</loc></url><url><loc>https://grindosonic.github.io/wiki/docs/troubleshooting/</loc></url><url><loc>https://grindosonic.github.io/wiki/categories/</loc></url><url><loc>https://grindosonic.github.io/wiki/tags/</loc></url></urlset>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>http://localhost:1313/wiki/</loc>
+  </url><url>
+    <loc>http://localhost:1313/wiki/docs/</loc>
+  </url><url>
+    <loc>http://localhost:1313/wiki/docs/getting-started/</loc>
+  </url><url>
+    <loc>http://localhost:1313/wiki/docs/applications/grinding-wheels/</loc>
+  </url><url>
+    <loc>http://localhost:1313/wiki/docs/getting-started/equipment-setup/</loc>
+  </url><url>
+    <loc>http://localhost:1313/wiki/docs/getting-started/measurement-procedure/</loc>
+  </url><url>
+    <loc>http://localhost:1313/wiki/docs/getting-started/data-analysis/</loc>
+  </url><url>
+    <loc>http://localhost:1313/wiki/docs/how-it-works/</loc>
+  </url><url>
+    <loc>http://localhost:1313/wiki/docs/applications/ndt-additive-manufacturing/</loc>
+  </url><url>
+    <loc>http://localhost:1313/wiki/docs/how-it-works/resonance-frequency-testing/</loc>
+  </url><url>
+    <loc>http://localhost:1313/wiki/docs/applications/</loc>
+  </url><url>
+    <loc>http://localhost:1313/wiki/docs/getting-started/non-destructive-testing/</loc>
+  </url><url>
+    <loc>http://localhost:1313/wiki/docs/how-it-works/tapping-test-method/</loc>
+  </url><url>
+    <loc>http://localhost:1313/wiki/docs/how-it-works/iet-vs-destructive-testing/</loc>
+  </url><url>
+    <loc>http://localhost:1313/wiki/docs/materials/</loc>
+  </url><url>
+    <loc>http://localhost:1313/wiki/docs/troubleshooting/</loc>
+  </url><url>
+    <loc>http://localhost:1313/wiki/categories/</loc>
+  </url><url>
+    <loc>http://localhost:1313/wiki/tags/</loc>
+  </url>
+</urlset>

@@ -1,1 +1,32 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>How It Works on GrindoSonic Wiki</title><link>https://grindosonic.github.io/wiki/docs/how-it-works/</link><description>Recent content in How It Works on GrindoSonic Wiki</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://grindosonic.github.io/wiki/docs/how-it-works/index.xml" rel="self" type="application/rss+xml"/></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>How It Works on GrindoSonic Wiki</title>
+    <link>http://localhost:1313/wiki/docs/how-it-works/</link>
+    <description>Recent content in How It Works on GrindoSonic Wiki</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:1313/wiki/docs/how-it-works/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Resonance Frequency Testing</title>
+      <link>http://localhost:1313/wiki/docs/how-it-works/resonance-frequency-testing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/wiki/docs/how-it-works/resonance-frequency-testing/</guid>
+      <description>&lt;h1 id=&#34;key-takeaways&#34;&gt;&#xA;  Key Takeaways&#xA;  &#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#key-takeaways&#34;&gt;#&lt;/a&gt;&#xA;  &#xA;&lt;/h1&gt;&#xA;&lt;p&gt;A simple mechanical impulse exposes how strongly a material resists internal motion.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;The resulting vibration patterns reveal stiffness, bonding quality, and hidden flaws&lt;/li&gt;&#xA;&lt;li&gt;This technique works without cutting, breaking, or altering the part&lt;/li&gt;&#xA;&lt;li&gt;It&amp;rsquo;s used in aerospace, automotive, additive manufacturing, and even product authentication&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;why-tapping-matters&#34;&gt;&#xA;  Why Tapping Matters&#xA;  &#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#why-tapping-matters&#34;&gt;#&lt;/a&gt;&#xA;  &#xA;&lt;/h2&gt;&#xA;&lt;p&gt;Most parts don&amp;rsquo;t fail because they look wrong—they fail because something inside them isn&amp;rsquo;t right. Cracks, voids, weak bonds, or uneven stiffness—these internal inconsistencies often go undetected until it&amp;rsquo;s too late. Destructive tests help, but they destroy the part and only tell you about the one you tested—not the one going into service.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Tapping Test Method</title>
+      <link>http://localhost:1313/wiki/docs/how-it-works/tapping-test-method/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/wiki/docs/how-it-works/tapping-test-method/</guid>
+      <description>&lt;h1 id=&#34;key-takeaways&#34;&gt;&#xA;  Key Takeaways&#xA;  &#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#key-takeaways&#34;&gt;#&lt;/a&gt;&#xA;  &#xA;&lt;/h1&gt;&#xA;&lt;p&gt;Tapping materials is a quick, non-destructive method to assess their internal strength and structural integrity.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;The tapping test method reveals defects like cracks, voids, or changes in density, helping prevent future failures&lt;/li&gt;&#xA;&lt;li&gt;Industrial applications rely on tapping tests for quality control, ensuring safety in construction, manufacturing, and material science&lt;/li&gt;&#xA;&lt;li&gt;Modern techniques like Impulse Excitation Technique (IET) make tapping tests more precise, providing vital data on Young&amp;rsquo;s modulus and other mechanical properties&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;unveiling-material-strength-why-the-tapping-method-matters&#34;&gt;&#xA;  Unveiling Material Strength: Why the Tapping Method Matters&#xA;  &#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#unveiling-material-strength-why-the-tapping-method-matters&#34;&gt;#&lt;/a&gt;&#xA;  &#xA;&lt;/h2&gt;&#xA;&lt;p&gt;Materials are everywhere in our daily lives—from the concrete beneath our feet to the ceramics and metals in high-tech industries. Understanding a material&amp;rsquo;s inner strength is essential to guarantee safety, durability, and optimal performance. One of the most widely-used techniques for evaluating the integrity of materials is the simple yet powerful act of tapping. But why do we tap materials, and what secrets do these taps reveal?&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>IET vs Destructive Testing</title>
+      <link>http://localhost:1313/wiki/docs/how-it-works/iet-vs-destructive-testing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/wiki/docs/how-it-works/iet-vs-destructive-testing/</guid>
+      <description>&lt;h1 id=&#34;key-takeaways&#34;&gt;&#xA;  Key Takeaways&#xA;  &#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#key-takeaways&#34;&gt;#&lt;/a&gt;&#xA;  &#xA;&lt;/h1&gt;&#xA;&lt;p&gt;Impulse Excitation Technique (IET) delivers accurate, non-destructive measurement of material properties such as Young&amp;rsquo;s modulus, enabling efficient quality control without compromising sample integrity.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Destructive testing destroys the sample to determine its mechanical properties, often resulting in higher material costs and waste for routine testing tasks&lt;/li&gt;&#xA;&lt;li&gt;IET offers rapid, repeatable results and is ideal for both metals and ceramics, streamlining workflows compared to the labor-intensive nature of destructive tests&lt;/li&gt;&#xA;&lt;li&gt;Choosing between impulse excitation and destructive testing depends on your need for sample preservation, test accuracy, speed, and compliance requirements&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;understanding-impulse-excitation-a-modern-take-on-non-destructive-testing&#34;&gt;&#xA;  Understanding Impulse Excitation: A Modern Take on Non-Destructive Testing&#xA;  &#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#understanding-impulse-excitation-a-modern-take-on-non-destructive-testing&#34;&gt;#&lt;/a&gt;&#xA;  &#xA;&lt;/h2&gt;&#xA;&lt;p&gt;Impulse Excitation Technique (IET) has quickly become a preferred method for measuring the mechanical properties of solids in laboratories and production environments. Unlike traditional mechanical tests that compromise or destroy the sample, IET leverages the natural resonance of a material to determine key properties such as Young&amp;rsquo;s modulus, shear modulus, Poisson&amp;rsquo;s Ratio and internal friction.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

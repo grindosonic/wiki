@@ -22,5 +22,5 @@ Here you’ll find:
 - 🚀 **Research & Development** — new insights and standards in non-destructive testing.  
 
 
-Use the sidebar to navigate through topics, or start with **[Getting Started](/docs/getting-started/)**
+Use the sidebar to navigate through topics, or start with **[Getting Started](/wiki/docs/getting-started/)**
 

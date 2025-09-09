@@ -1,1 +1,25 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Applications on GrindoSonic Wiki</title><link>https://grindosonic.github.io/wiki/docs/applications/</link><description>Recent content in Applications on GrindoSonic Wiki</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://grindosonic.github.io/wiki/docs/applications/index.xml" rel="self" type="application/rss+xml"/></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Applications on GrindoSonic Wiki</title>
+    <link>http://localhost:1313/wiki/docs/applications/</link>
+    <description>Recent content in Applications on GrindoSonic Wiki</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:1313/wiki/docs/applications/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Grinding Wheels: The Foundation of Impulse Excitation</title>
+      <link>http://localhost:1313/wiki/docs/applications/grinding-wheels/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/wiki/docs/applications/grinding-wheels/</guid>
+      <description>&lt;h1 id=&#34;key-takeaways&#34;&gt;&#xA;  Key Takeaways&#xA;  &#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#key-takeaways&#34;&gt;#&lt;/a&gt;&#xA;  &#xA;&lt;/h1&gt;&#xA;&lt;p&gt;Grinding wheels made it clear: why impulse excitation works is simple—it reveals internal integrity with a single tap.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Grinding performance is tightly linked to stiffness&lt;/li&gt;&#xA;&lt;li&gt;Even small deviations in material properties affect tool life, safety, and finish quality&lt;/li&gt;&#xA;&lt;li&gt;Impulse excitation measures exact stiffness through resonance, mass, and dimensions&lt;/li&gt;&#xA;&lt;li&gt;It reveals hidden flaws without damaging the disc&lt;/li&gt;&#xA;&lt;li&gt;This foundational use case launched GrindoSonic&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;why-tapping-grinding-wheels-mattered-first&#34;&gt;&#xA;  Why Tapping Grinding Wheels Mattered First&#xA;  &#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#why-tapping-grinding-wheels-mattered-first&#34;&gt;#&lt;/a&gt;&#xA;  &#xA;&lt;/h2&gt;&#xA;&lt;p&gt;In high-speed grinding, precision is everything. A wheel that&amp;rsquo;s too soft burns the part. Too hard, and it shatters. Even surface finish and tool wear are affected by stiffness. That&amp;rsquo;s why in the early days of GrindoSonic, this was where the need for non-destructive testing was too strong to ignore.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Non-Destructive Testing in Additive Manufacturing</title>
+      <link>http://localhost:1313/wiki/docs/applications/ndt-additive-manufacturing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/wiki/docs/applications/ndt-additive-manufacturing/</guid>
+      <description>&lt;h1 id=&#34;key-takeaways&#34;&gt;&#xA;  Key Takeaways&#xA;  &#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#key-takeaways&#34;&gt;#&lt;/a&gt;&#xA;  &#xA;&lt;/h1&gt;&#xA;&lt;p&gt;Non-destructive testing (NDT) is essential for ensuring the reliability and safety of additive manufacturing (AM) components, reducing risk in critical applications.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Integrating non-destructive testing into the additive manufacturing workflow enables rapid feedback and continuous process improvement, lowering production costs and improving part performance&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;understanding-additive-manufacturing-and-its-unique-risks&#34;&gt;&#xA;  Understanding Additive Manufacturing and Its Unique Risks&#xA;  &#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#understanding-additive-manufacturing-and-its-unique-risks&#34;&gt;#&lt;/a&gt;&#xA;  &#xA;&lt;/h2&gt;&#xA;&lt;p&gt;Additive manufacturing, commonly known as 3D printing, has revolutionized the way industries design and produce components. From aerospace and automotive to healthcare and consumer goods, AM enables the creation of complex geometries and lightweight structures previously unimaginable. However, despite its advantages, additive manufacturing introduces inherent risks and challenges related to material integrity, repeatability, and process control.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

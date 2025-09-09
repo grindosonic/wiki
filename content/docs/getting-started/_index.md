@@ -10,7 +10,7 @@ Everything you need to start measuring material properties with impulse excitati
 
 ## Understanding NDT
 
-### [Non-Destructive Material Testing: An Overview](/docs/getting-started/non-destructive-testing/)
+### [Non-Destructive Material Testing: An Overview](/wiki/docs/getting-started/non-destructive-testing/)
 Learn about the broader field of non-destructive testing, including common techniques like ultrasonic, radiographic, and eddy current testing, and how they improve product reliability and quality control.
 
 ## Equipment Needed
@@ -59,6 +59,6 @@ Where: ρ = density, L = length, t = thickness, f_f = flexural frequency, f_t = 
 
 ## Next Steps
 
-- [Equipment Setup](/docs/getting-started/equipment-setup/) - Detailed setup instructions
-- [Measurement Procedure](/docs/getting-started/measurement-procedure/) - Step-by-step process
-- [Data Analysis](/docs/getting-started/data-analysis/) - Processing and calculations
+- [Equipment Setup](/wiki/docs/getting-started/equipment-setup/) - Detailed setup instructions
+- [Measurement Procedure](/wiki/docs/getting-started/measurement-procedure/) - Step-by-step process
+- [Data Analysis](/wiki/docs/getting-started/data-analysis/) - Processing and calculations

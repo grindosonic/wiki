@@ -1,37 +1,767 @@
-<!doctype html><html lang=en-us dir=ltr><head><meta charset=UTF-8><meta name=viewport content="width=device-width,initial-scale=1"><meta name=description content="Common issues and solutions in impulse excitation testing"><meta name=theme-color media="(prefers-color-scheme: light)" content="#ffffff"><meta name=theme-color media="(prefers-color-scheme: dark)" content="#343a40"><meta name=color-scheme content="light dark"><meta property="og:url" content="https://grindosonic.github.io/wiki/docs/troubleshooting/"><meta property="og:site_name" content="GrindoSonic Wiki"><meta property="og:title" content="Troubleshooting"><meta property="og:description" content="Common issues and solutions in impulse excitation testing"><meta property="og:locale" content="en_us"><meta property="og:type" content="website"><title>Troubleshooting | GrindoSonic Wiki</title><link rel=icon href=/wiki/favicon.png><link rel=manifest href=/wiki/manifest.json><link rel=canonical href=https://grindosonic.github.io/wiki/docs/troubleshooting/><link rel=stylesheet href=/wiki/book.min.43da4f674bafcc775ef6b9d9265bc9647ba28b480dd118ef9df73c802e974236.css integrity="sha256-Q9pPZ0uvzHde9rnZJlvJZHuii0gN0Rjvnfc8gC6XQjY=" crossorigin=anonymous><script defer src=/wiki/fuse.min.js></script><script defer src=/wiki/en.search.min.5d806a41f5954f2829538e3170094a2e5ad9b95494a7c7389c6c9e63e2fa61c5.js integrity="sha256-XYBqQfWVTygpU44xcAlKLlrZuVSUp8c4nGyeY+L6YcU=" crossorigin=anonymous></script><link rel=alternate type=application/rss+xml href=https://grindosonic.github.io/wiki/docs/troubleshooting/index.xml title="GrindoSonic Wiki"></head><body dir=ltr class="book-kind-section book-type-docs book-layout-"><input type=checkbox class="hidden toggle" id=menu-control>
-<input type=checkbox class="hidden toggle" id=toc-control><main class="container flex"><aside class=book-menu><div class=book-menu-content><nav><h2 class=book-brand><a class="flex align-center" href=/wiki/><span>GrindoSonic Wiki</span></a></h2><div class="book-search hidden"><input type=text id=book-search-input placeholder=Search aria-label=Search maxlength=64 data-hotkeys=s/><div class="book-search-spinner hidden"></div><ul id=book-search-results></ul></div><script>document.querySelector(".book-search").classList.remove("hidden")</script><ul><li><a href=/wiki/docs/getting-started/>Getting Started</a><ul><li><a href=/wiki/docs/getting-started/equipment-setup/>Equipment Setup</a></li><li><a href=/wiki/docs/getting-started/measurement-procedure/>Measurement Procedure</a></li><li><a href=/wiki/docs/getting-started/data-analysis/>Data Analysis</a></li></ul></li><li><a href=/wiki/docs/how-it-works/>How It Works</a><ul></ul></li><li><a href=/wiki/docs/applications/>Applications</a><ul></ul></li><li><a href=/wiki/docs/materials/>Materials</a><ul></ul></li><li><a href=/wiki/docs/troubleshooting/ class=active>Troubleshooting</a><ul></ul></li></ul></nav><script>(function(){var e=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(){localStorage.setItem("menu.scrollTop",e.scrollTop)}),e.scrollTop=localStorage.getItem("menu.scrollTop")})()</script></div></aside><div class=book-page><header class=book-header><div class="flex align-center justify-between"><label for=menu-control><img src=/wiki/svg/menu.svg class=book-icon alt=Menu></label><h3>Troubleshooting</h3><label for=toc-control><img src=/wiki/svg/toc.svg class=book-icon alt="Table of Contents"></label></div><aside class="hidden clearfix"><nav id=TableOfContents><ul><li><a href=#troubleshooting>Troubleshooting</a><ul><li><a href=#signal-quality-issues>Signal Quality Issues</a></li><li><a href=#frequency-measurement-issues>Frequency Measurement Issues</a></li><li><a href=#property-calculation-issues>Property Calculation Issues</a></li><li><a href=#equipment-problems>Equipment Problems</a></li><li><a href=#environmental-issues>Environmental Issues</a></li><li><a href=#diagnostic-procedures>Diagnostic Procedures</a></li><li><a href=#prevention>Prevention</a></li></ul></li></ul></nav></aside></header><article class="markdown book-article"><h1 id=troubleshooting>Troubleshooting
-<a class=anchor href=#troubleshooting>#</a></h1><p>Common problems and solutions for impulse excitation testing.</p><h2 id=signal-quality-issues>Signal Quality Issues
-<a class=anchor href=#signal-quality-issues>#</a></h2><h3 id=poor-signal-amplitude>Poor Signal Amplitude
-<a class=anchor href=#poor-signal-amplitude>#</a></h3><p><strong>Symptoms</strong>: Low signal levels, noisy measurements
-<strong>Causes</strong>:</p><ul><li>Sensor at vibration node</li><li>Insufficient excitation force</li><li>Low sensor sensitivity</li><li>Damped specimen</li></ul><p><strong>Solutions</strong>:</p><ul><li>Move sensor to anti-node (center)</li><li>Increase excitation force</li><li>Check sensor calibration</li><li>Verify specimen condition</li></ul><h3 id=noisy-signals>Noisy Signals
-<a class=anchor href=#noisy-signals>#</a></h3><p><strong>Symptoms</strong>: High background noise, unclear peaks
-<strong>Causes</strong>:</p><ul><li>External vibrations</li><li>Electrical interference</li><li>Faulty sensor</li><li>Inadequate signal processing</li></ul><p><strong>Solutions</strong>:</p><ul><li>Improve vibration isolation</li><li>Check grounding and cables</li><li>Test with reference sensor</li><li>Optimize FFT parameters</li></ul><h2 id=frequency-measurement-issues>Frequency Measurement Issues
-<a class=anchor href=#frequency-measurement-issues>#</a></h2><h3 id=missing-natural-frequencies>Missing Natural Frequencies
-<a class=anchor href=#missing-natural-frequencies>#</a></h3><p><strong>Symptoms</strong>: No clear peaks, missing expected modes
-<strong>Causes</strong>:</p><ul><li>Excitation at vibration node</li><li>Incorrect support positioning</li><li>Wrong specimen geometry</li><li>Coupled vibration modes</li></ul><p><strong>Solutions</strong>:</p><ul><li>Move excitation to anti-node</li><li>Verify support placement (0.224L)</li><li>Check specimen dimensions</li><li>Improve specimen geometry</li></ul><h3 id=inconsistent-frequencies>Inconsistent Frequencies
-<a class=anchor href=#inconsistent-frequencies>#</a></h3><p><strong>Symptoms</strong>: Variable measurements, high standard deviation
-<strong>Causes</strong>:</p><ul><li>Variable excitation force</li><li>Environmental variations</li><li>Specimen damage</li><li>Unstable support positioning</li></ul><p><strong>Solutions</strong>:</p><ul><li>Standardize excitation technique</li><li>Control environmental conditions</li><li>Check specimen condition</li><li>Improve support system</li></ul><h2 id=property-calculation-issues>Property Calculation Issues
-<a class=anchor href=#property-calculation-issues>#</a></h2><h3 id=incorrect-elastic-moduli>Incorrect Elastic Moduli
-<a class=anchor href=#incorrect-elastic-moduli>#</a></h3><p><strong>Symptoms</strong>: Values outside expected range
-<strong>Causes</strong>:</p><ul><li>Incorrect specimen dimensions</li><li>Wrong density value</li><li>Incorrect frequency measurement</li><li>Calculation errors</li></ul><p><strong>Solutions</strong>:</p><ul><li>Remeasure dimensions accurately</li><li>Verify density calculation</li><li>Check peak identification</li><li>Verify calculation formulas</li></ul><h3 id=unrealistic-poissons-ratio>Unrealistic Poisson&rsquo;s Ratio
-<a class=anchor href=#unrealistic-poissons-ratio>#</a></h3><p><strong>Symptoms</strong>: Values outside 0-0.5 range
-<strong>Causes</strong>:</p><ul><li>Incorrect mode identification</li><li>Wrong frequency values</li><li>Incorrect material assumptions</li></ul><p><strong>Solutions</strong>:</p><ul><li>Verify mode shapes</li><li>Improve frequency measurement</li><li>Check material isotropy</li><li>Validate with literature</li></ul><h2 id=equipment-problems>Equipment Problems
-<a class=anchor href=#equipment-problems>#</a></h2><h3 id=system-malfunctions>System Malfunctions
-<a class=anchor href=#system-malfunctions>#</a></h3><p><strong>Symptoms</strong>: No signal output, erratic behavior
-<strong>Causes</strong>:</p><ul><li>Power issues</li><li>Connection problems</li><li>Software errors</li><li>Hardware failures</li></ul><p><strong>Solutions</strong>:</p><ul><li>Check power connections</li><li>Verify all connections</li><li>Update software</li><li>Replace faulty components</li></ul><h3 id=calibration-issues>Calibration Issues
-<a class=anchor href=#calibration-issues>#</a></h3><p><strong>Symptoms</strong>: Inaccurate measurements, drift
-<strong>Causes</strong>:</p><ul><li>Sensor drift</li><li>Environmental effects</li><li>Reference material issues</li></ul><p><strong>Solutions</strong>:</p><ul><li>Recalibrate sensors</li><li>Control environmental conditions</li><li>Use certified reference materials</li><li>Regular maintenance</li></ul><h2 id=environmental-issues>Environmental Issues
-<a class=anchor href=#environmental-issues>#</a></h2><h3 id=temperature-effects>Temperature Effects
-<a class=anchor href=#temperature-effects>#</a></h3><p><strong>Symptoms</strong>: Drift in measurements
-<strong>Causes</strong>:</p><ul><li>Unstable temperature</li><li>Thermal expansion</li><li>Property changes</li></ul><p><strong>Solutions</strong>:</p><ul><li>Control temperature ±1°C</li><li>Account for thermal expansion</li><li>Test at controlled temperature</li></ul><h3 id=vibration-interference>Vibration Interference
-<a class=anchor href=#vibration-interference>#</a></h3><p><strong>Symptoms</strong>: Noisy measurements
-<strong>Causes</strong>:</p><ul><li>Building vibrations</li><li>Equipment vibrations</li><li>Acoustic noise</li></ul><p><strong>Solutions</strong>:</p><ul><li>Use vibration isolation table</li><li>Isolate equipment</li><li>Improve acoustic isolation</li></ul><h2 id=diagnostic-procedures>Diagnostic Procedures
-<a class=anchor href=#diagnostic-procedures>#</a></h2><h3 id=systematic-troubleshooting>Systematic Troubleshooting
-<a class=anchor href=#systematic-troubleshooting>#</a></h3><ol><li><strong>Verify basic setup</strong> - Check connections and positioning</li><li><strong>Analyze signal quality</strong> - Examine time and frequency domains</li><li><strong>Test system components</strong> - Check sensors and excitation</li><li><strong>Environmental assessment</strong> - Monitor temperature and vibrations</li></ol><h3 id=quality-checks>Quality Checks
-<a class=anchor href=#quality-checks>#</a></h3><ul><li>Signal amplitude adequate</li><li>Clear frequency peaks</li><li>Consistent measurements</li><li>Proper peak identification</li></ul><h2 id=prevention>Prevention
-<a class=anchor href=#prevention>#</a></h2><h3 id=regular-maintenance>Regular Maintenance
-<a class=anchor href=#regular-maintenance>#</a></h3><ul><li>Clean equipment surfaces</li><li>Check connections</li><li>Verify calibration</li><li>Update software</li></ul><h3 id=best-practices>Best Practices
-<a class=anchor href=#best-practices>#</a></h3><ul><li>Follow standard procedures</li><li>Control environmental conditions</li><li>Use quality specimens</li><li>Document everything</li></ul><h3 id=training>Training
-<a class=anchor href=#training>#</a></h3><ul><li>Proper operator training</li><li>Regular refresher courses</li><li>Troubleshooting procedures</li><li>Quality control methods</li></ul></article><footer class=book-footer><div class="flex flex-wrap justify-between"></div><div class="flex flex-wrap justify-between"><span><a href=/wiki/docs/materials/ class="flex align-center book-icon"><img src=/wiki/svg/backward.svg class=book-icon alt=Previous title=Materials>
-<span>Materials</span>
-</a></span><span></span></div><script>(function(){function e(e){const t=window.getSelection(),n=document.createRange();n.selectNodeContents(e),t.removeAllRanges(),t.addRange(n)}document.querySelectorAll("pre code").forEach(t=>{t.addEventListener("click",function(){if(window.getSelection().toString())return;e(t.parentElement),navigator.clipboard&&navigator.clipboard.writeText(t.parentElement.textContent)})})})()</script></footer><div class=book-comments></div><label for=menu-control class="hidden book-menu-overlay"></label></div><aside class=book-toc><div class=book-toc-content><nav id=TableOfContents><ul><li><a href=#troubleshooting>Troubleshooting</a><ul><li><a href=#signal-quality-issues>Signal Quality Issues</a></li><li><a href=#frequency-measurement-issues>Frequency Measurement Issues</a></li><li><a href=#property-calculation-issues>Property Calculation Issues</a></li><li><a href=#equipment-problems>Equipment Problems</a></li><li><a href=#environmental-issues>Environmental Issues</a></li><li><a href=#diagnostic-procedures>Diagnostic Procedures</a></li><li><a href=#prevention>Prevention</a></li></ul></li></ul></nav></div></aside></main></body></html>
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr">
+<head><script src="/wiki/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=wiki/livereload" data-no-instant defer></script>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Common issues and solutions in impulse excitation testing">
+<meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff">
+<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#343a40">
+<meta name="color-scheme" content="light dark"><meta property="og:url" content="http://localhost:1313/wiki/docs/troubleshooting/">
+  <meta property="og:site_name" content="GrindoSonic Wiki">
+  <meta property="og:title" content="Troubleshooting">
+  <meta property="og:description" content="Common issues and solutions in impulse excitation testing">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="website">
+<title>Troubleshooting | GrindoSonic Wiki</title>
+<link rel="icon" href="/wiki/favicon.png" >
+<link rel="manifest" href="/wiki/manifest.json">
+<link rel="canonical" href="http://localhost:1313/wiki/docs/troubleshooting/">
+<link rel="stylesheet" href="/wiki/book.min.67d2a9a1bdc31e812f6bb1fd34fddec52867c148be64a8b149972562a302b4ce.css" integrity="sha256-Z9Kpob3DHoEva7H9NP3exShnwUi&#43;ZKixSZclYqMCtM4=" crossorigin="anonymous">
+  <script defer src="/wiki/fuse.min.js"></script>
+  <script defer src="/wiki/en.search.min.a7bd7a5a2890336135537e7926516a0cc66939746dad80d212a6af21ef8d9938.js" integrity="sha256-p716WiiQM2E1U355JlFqDMZpOXRtrYDSEqavIe&#43;NmTg=" crossorigin="anonymous"></script>
+<link rel="alternate" type="application/rss+xml" href="http://localhost:1313/wiki/docs/troubleshooting/index.xml" title="GrindoSonic Wiki" />
+<!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+  
+</head>
+<body dir="ltr" class="book-kind-section book-type-docs book-layout-">
+  <input type="checkbox" class="hidden toggle" id="menu-control" />
+  <input type="checkbox" class="hidden toggle" id="toc-control" />
+  <main class="container flex">
+    
+<aside class="book-menu">
+  <div class="book-menu-content">
+    
+  <nav>
+<h2 class="book-brand">
+  <a class="flex align-center" href="/wiki/"><span>GrindoSonic Wiki</span>
+  </a>
+</h2>
+
+
+<div class="book-search hidden">
+  <input type="text" id="book-search-input" placeholder="Search" aria-label="Search" maxlength="64" data-hotkeys="s/" />
+  <div class="book-search-spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+<script>document.querySelector(".book-search").classList.remove("hidden")</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/wiki/docs/getting-started/" class="">Getting Started</a>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/wiki/docs/getting-started/equipment-setup/" class="">Equipment Setup</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/wiki/docs/getting-started/measurement-procedure/" class="">Measurement Procedure</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/wiki/docs/getting-started/data-analysis/" class="">Data Analysis</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/wiki/docs/getting-started/non-destructive-testing/" class="">Non-Destructive Material Testing: An Overview</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/wiki/docs/how-it-works/" class="">How It Works</a>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/wiki/docs/how-it-works/resonance-frequency-testing/" class="">Resonance Frequency Testing</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/wiki/docs/how-it-works/tapping-test-method/" class="">Tapping Test Method</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/wiki/docs/how-it-works/iet-vs-destructive-testing/" class="">IET vs Destructive Testing</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/wiki/docs/applications/" class="">Applications</a>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/wiki/docs/applications/grinding-wheels/" class="">Grinding Wheels: The Foundation of Impulse Excitation</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/wiki/docs/applications/ndt-additive-manufacturing/" class="">Non-Destructive Testing in Additive Manufacturing</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/wiki/docs/materials/" class="">Materials</a>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/wiki/docs/troubleshooting/" class="active">Troubleshooting</a>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</nav>
+
+
+
+
+  <script>(function(){var e=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(){localStorage.setItem("menu.scrollTop",e.scrollTop)}),e.scrollTop=localStorage.getItem("menu.scrollTop")})()</script>
+
+
+
+  </div>
+</aside>
+ 
+
+    <div class="book-page">
+      <header class="book-header">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="/wiki/svg/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <h3>Troubleshooting</h3>
+
+  <label for="toc-control">
+    
+    <img src="/wiki/svg/toc.svg" class="book-icon" alt="Table of Contents" />
+    
+  </label>
+</div>
+
+
+  
+  <aside class="hidden clearfix">
+    
+  
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#troubleshooting">Troubleshooting</a>
+      <ul>
+        <li><a href="#signal-quality-issues">Signal Quality Issues</a></li>
+        <li><a href="#frequency-measurement-issues">Frequency Measurement Issues</a></li>
+        <li><a href="#property-calculation-issues">Property Calculation Issues</a></li>
+        <li><a href="#equipment-problems">Equipment Problems</a></li>
+        <li><a href="#environmental-issues">Environmental Issues</a></li>
+        <li><a href="#diagnostic-procedures">Diagnostic Procedures</a></li>
+        <li><a href="#prevention">Prevention</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+
+
+  </aside>
+  
+ 
+      </header>
+
+      
+      
+  <article class="markdown book-article"><h1 id="troubleshooting">
+  Troubleshooting
+  
+  <a class="anchor" href="#troubleshooting">#</a>
+  
+</h1>
+<p>Common problems and solutions for impulse excitation testing.</p>
+<h2 id="signal-quality-issues">
+  Signal Quality Issues
+  
+  <a class="anchor" href="#signal-quality-issues">#</a>
+  
+</h2>
+<h3 id="poor-signal-amplitude">
+  Poor Signal Amplitude
+  
+  <a class="anchor" href="#poor-signal-amplitude">#</a>
+  
+</h3>
+<p><strong>Symptoms</strong>: Low signal levels, noisy measurements
+<strong>Causes</strong>:</p>
+<ul>
+<li>Sensor at vibration node</li>
+<li>Insufficient excitation force</li>
+<li>Low sensor sensitivity</li>
+<li>Damped specimen</li>
+</ul>
+<p><strong>Solutions</strong>:</p>
+<ul>
+<li>Move sensor to anti-node (center)</li>
+<li>Increase excitation force</li>
+<li>Check sensor calibration</li>
+<li>Verify specimen condition</li>
+</ul>
+<h3 id="noisy-signals">
+  Noisy Signals
+  
+  <a class="anchor" href="#noisy-signals">#</a>
+  
+</h3>
+<p><strong>Symptoms</strong>: High background noise, unclear peaks
+<strong>Causes</strong>:</p>
+<ul>
+<li>External vibrations</li>
+<li>Electrical interference</li>
+<li>Faulty sensor</li>
+<li>Inadequate signal processing</li>
+</ul>
+<p><strong>Solutions</strong>:</p>
+<ul>
+<li>Improve vibration isolation</li>
+<li>Check grounding and cables</li>
+<li>Test with reference sensor</li>
+<li>Optimize FFT parameters</li>
+</ul>
+<h2 id="frequency-measurement-issues">
+  Frequency Measurement Issues
+  
+  <a class="anchor" href="#frequency-measurement-issues">#</a>
+  
+</h2>
+<h3 id="missing-natural-frequencies">
+  Missing Natural Frequencies
+  
+  <a class="anchor" href="#missing-natural-frequencies">#</a>
+  
+</h3>
+<p><strong>Symptoms</strong>: No clear peaks, missing expected modes
+<strong>Causes</strong>:</p>
+<ul>
+<li>Excitation at vibration node</li>
+<li>Incorrect support positioning</li>
+<li>Wrong specimen geometry</li>
+<li>Coupled vibration modes</li>
+</ul>
+<p><strong>Solutions</strong>:</p>
+<ul>
+<li>Move excitation to anti-node</li>
+<li>Verify support placement (0.224L)</li>
+<li>Check specimen dimensions</li>
+<li>Improve specimen geometry</li>
+</ul>
+<h3 id="inconsistent-frequencies">
+  Inconsistent Frequencies
+  
+  <a class="anchor" href="#inconsistent-frequencies">#</a>
+  
+</h3>
+<p><strong>Symptoms</strong>: Variable measurements, high standard deviation
+<strong>Causes</strong>:</p>
+<ul>
+<li>Variable excitation force</li>
+<li>Environmental variations</li>
+<li>Specimen damage</li>
+<li>Unstable support positioning</li>
+</ul>
+<p><strong>Solutions</strong>:</p>
+<ul>
+<li>Standardize excitation technique</li>
+<li>Control environmental conditions</li>
+<li>Check specimen condition</li>
+<li>Improve support system</li>
+</ul>
+<h2 id="property-calculation-issues">
+  Property Calculation Issues
+  
+  <a class="anchor" href="#property-calculation-issues">#</a>
+  
+</h2>
+<h3 id="incorrect-elastic-moduli">
+  Incorrect Elastic Moduli
+  
+  <a class="anchor" href="#incorrect-elastic-moduli">#</a>
+  
+</h3>
+<p><strong>Symptoms</strong>: Values outside expected range
+<strong>Causes</strong>:</p>
+<ul>
+<li>Incorrect specimen dimensions</li>
+<li>Wrong density value</li>
+<li>Incorrect frequency measurement</li>
+<li>Calculation errors</li>
+</ul>
+<p><strong>Solutions</strong>:</p>
+<ul>
+<li>Remeasure dimensions accurately</li>
+<li>Verify density calculation</li>
+<li>Check peak identification</li>
+<li>Verify calculation formulas</li>
+</ul>
+<h3 id="unrealistic-poissons-ratio">
+  Unrealistic Poisson&rsquo;s Ratio
+  
+  <a class="anchor" href="#unrealistic-poissons-ratio">#</a>
+  
+</h3>
+<p><strong>Symptoms</strong>: Values outside 0-0.5 range
+<strong>Causes</strong>:</p>
+<ul>
+<li>Incorrect mode identification</li>
+<li>Wrong frequency values</li>
+<li>Incorrect material assumptions</li>
+</ul>
+<p><strong>Solutions</strong>:</p>
+<ul>
+<li>Verify mode shapes</li>
+<li>Improve frequency measurement</li>
+<li>Check material isotropy</li>
+<li>Validate with literature</li>
+</ul>
+<h2 id="equipment-problems">
+  Equipment Problems
+  
+  <a class="anchor" href="#equipment-problems">#</a>
+  
+</h2>
+<h3 id="system-malfunctions">
+  System Malfunctions
+  
+  <a class="anchor" href="#system-malfunctions">#</a>
+  
+</h3>
+<p><strong>Symptoms</strong>: No signal output, erratic behavior
+<strong>Causes</strong>:</p>
+<ul>
+<li>Power issues</li>
+<li>Connection problems</li>
+<li>Software errors</li>
+<li>Hardware failures</li>
+</ul>
+<p><strong>Solutions</strong>:</p>
+<ul>
+<li>Check power connections</li>
+<li>Verify all connections</li>
+<li>Update software</li>
+<li>Replace faulty components</li>
+</ul>
+<h3 id="calibration-issues">
+  Calibration Issues
+  
+  <a class="anchor" href="#calibration-issues">#</a>
+  
+</h3>
+<p><strong>Symptoms</strong>: Inaccurate measurements, drift
+<strong>Causes</strong>:</p>
+<ul>
+<li>Sensor drift</li>
+<li>Environmental effects</li>
+<li>Reference material issues</li>
+</ul>
+<p><strong>Solutions</strong>:</p>
+<ul>
+<li>Recalibrate sensors</li>
+<li>Control environmental conditions</li>
+<li>Use certified reference materials</li>
+<li>Regular maintenance</li>
+</ul>
+<h2 id="environmental-issues">
+  Environmental Issues
+  
+  <a class="anchor" href="#environmental-issues">#</a>
+  
+</h2>
+<h3 id="temperature-effects">
+  Temperature Effects
+  
+  <a class="anchor" href="#temperature-effects">#</a>
+  
+</h3>
+<p><strong>Symptoms</strong>: Drift in measurements
+<strong>Causes</strong>:</p>
+<ul>
+<li>Unstable temperature</li>
+<li>Thermal expansion</li>
+<li>Property changes</li>
+</ul>
+<p><strong>Solutions</strong>:</p>
+<ul>
+<li>Control temperature ±1°C</li>
+<li>Account for thermal expansion</li>
+<li>Test at controlled temperature</li>
+</ul>
+<h3 id="vibration-interference">
+  Vibration Interference
+  
+  <a class="anchor" href="#vibration-interference">#</a>
+  
+</h3>
+<p><strong>Symptoms</strong>: Noisy measurements
+<strong>Causes</strong>:</p>
+<ul>
+<li>Building vibrations</li>
+<li>Equipment vibrations</li>
+<li>Acoustic noise</li>
+</ul>
+<p><strong>Solutions</strong>:</p>
+<ul>
+<li>Use vibration isolation table</li>
+<li>Isolate equipment</li>
+<li>Improve acoustic isolation</li>
+</ul>
+<h2 id="diagnostic-procedures">
+  Diagnostic Procedures
+  
+  <a class="anchor" href="#diagnostic-procedures">#</a>
+  
+</h2>
+<h3 id="systematic-troubleshooting">
+  Systematic Troubleshooting
+  
+  <a class="anchor" href="#systematic-troubleshooting">#</a>
+  
+</h3>
+<ol>
+<li><strong>Verify basic setup</strong> - Check connections and positioning</li>
+<li><strong>Analyze signal quality</strong> - Examine time and frequency domains</li>
+<li><strong>Test system components</strong> - Check sensors and excitation</li>
+<li><strong>Environmental assessment</strong> - Monitor temperature and vibrations</li>
+</ol>
+<h3 id="quality-checks">
+  Quality Checks
+  
+  <a class="anchor" href="#quality-checks">#</a>
+  
+</h3>
+<ul>
+<li>Signal amplitude adequate</li>
+<li>Clear frequency peaks</li>
+<li>Consistent measurements</li>
+<li>Proper peak identification</li>
+</ul>
+<h2 id="prevention">
+  Prevention
+  
+  <a class="anchor" href="#prevention">#</a>
+  
+</h2>
+<h3 id="regular-maintenance">
+  Regular Maintenance
+  
+  <a class="anchor" href="#regular-maintenance">#</a>
+  
+</h3>
+<ul>
+<li>Clean equipment surfaces</li>
+<li>Check connections</li>
+<li>Verify calibration</li>
+<li>Update software</li>
+</ul>
+<h3 id="best-practices">
+  Best Practices
+  
+  <a class="anchor" href="#best-practices">#</a>
+  
+</h3>
+<ul>
+<li>Follow standard procedures</li>
+<li>Control environmental conditions</li>
+<li>Use quality specimens</li>
+<li>Document everything</li>
+</ul>
+<h3 id="training">
+  Training
+  
+  <a class="anchor" href="#training">#</a>
+  
+</h3>
+<ul>
+<li>Proper operator training</li>
+<li>Regular refresher courses</li>
+<li>Troubleshooting procedures</li>
+<li>Quality control methods</li>
+</ul>
+</article>
+ 
+      
+
+      <footer class="book-footer">
+        
+  <div class="flex flex-wrap justify-between">
+
+
+
+
+
+</div>
+
+
+
+
+
+  
+  
+  
+  <div class="flex flex-wrap justify-between">
+    <span>
+    
+      <a href="/wiki/docs/materials/" class="flex align-center book-icon">
+        <img src="/wiki/svg/backward.svg" class="book-icon" alt="Previous" title="Materials" />
+        <span>Materials</span>
+      </a>
+    
+    </span>
+    <span>
+    
+    </span>
+  </div>
+  
+
+
+
+
+  <script>(function(){function e(e){const t=window.getSelection(),n=document.createRange();n.selectNodeContents(e),t.removeAllRanges(),t.addRange(n)}document.querySelectorAll("pre code").forEach(t=>{t.addEventListener("click",function(){if(window.getSelection().toString())return;e(t.parentElement),navigator.clipboard&&navigator.clipboard.writeText(t.parentElement.textContent)})})})()</script>
+
+
+ 
+        
+      </footer>
+
+      
+  
+  <div class="book-comments">
+
+</div>
+  
+ 
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+
+<aside class="book-toc">
+  <div class="book-toc-content">
+    
+  
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#troubleshooting">Troubleshooting</a>
+      <ul>
+        <li><a href="#signal-quality-issues">Signal Quality Issues</a></li>
+        <li><a href="#frequency-measurement-issues">Frequency Measurement Issues</a></li>
+        <li><a href="#property-calculation-issues">Property Calculation Issues</a></li>
+        <li><a href="#equipment-problems">Equipment Problems</a></li>
+        <li><a href="#environmental-issues">Environmental Issues</a></li>
+        <li><a href="#diagnostic-procedures">Diagnostic Procedures</a></li>
+        <li><a href="#prevention">Prevention</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+
+
+  </div>
+</aside>
+
+ 
+  </main>
+
+  
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

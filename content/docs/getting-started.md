@@ -15,7 +15,7 @@ weight: 1
 Welcome! This short guide will help you begin using the wiki effectively.  
 
 1. **Browse by Section**  
-   Use the navigation sidebar to explore categories like *Testing Methods*, *Applications*, and *Material Classes*.  
+   Use the navigation sidebar to explore categories like *How It Works*, *Applications*, and *Materials*.  
 
 2. **Search**  
    Use the 🔍 search bar at the top to quickly find keywords across the wiki.  
@@ -24,8 +24,9 @@ Welcome! This short guide will help you begin using the wiki effectively.
    Each page begins with a short summary, followed by detailed explanations, figures, and references.  
 
 4. **Next Steps**  
-   - Visit **Testing Methods** to learn the basics of impulse excitation.  
-   - Or jump into **Applications** to see real-world use cases.  
+   - Visit **[How It Works](/wiki/docs/how-it-works/)** to learn the basics of impulse excitation.  
+   - Or jump into **[Applications](/wiki/docs/applications/)** to see real-world use cases.  
 
 ---
+
 

@@ -1,447 +1,74 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Docs on GrindoSonic Wiki</title><link>https://grindosonic.github.io/wiki/</link><description>Recent content in Docs on GrindoSonic Wiki</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://grindosonic.github.io/wiki/index.xml" rel="self" type="application/rss+xml"/><item><title>Equipment Setup</title><link>https://grindosonic.github.io/wiki/docs/getting-started/equipment-setup/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://grindosonic.github.io/wiki/docs/getting-started/equipment-setup/</guid><description>&lt;h1 id="equipment-setup">
- Equipment Setup
- 
- &lt;a class="anchor" href="#equipment-setup">#&lt;/a>
- 
-&lt;/h1>
-&lt;h2 id="system-components">
- System Components
- 
- &lt;a class="anchor" href="#system-components">#&lt;/a>
- 
-&lt;/h2>
-&lt;h3 id="main-unit">
- Main Unit
- 
- &lt;a class="anchor" href="#main-unit">#&lt;/a>
- 
-&lt;/h3>
-&lt;ul>
-&lt;li>Impulse excitation measurement system&lt;/li>
-&lt;li>Data acquisition hardware&lt;/li>
-&lt;li>Analysis software&lt;/li>
-&lt;li>Display and controls&lt;/li>
-&lt;/ul>
-&lt;h3 id="support-system">
- Support System
- 
- &lt;a class="anchor" href="#support-system">#&lt;/a>
- 
-&lt;/h3>
-&lt;ul>
-&lt;li>Two support points (knife-edge or point supports)&lt;/li>
-&lt;li>Adjustable positioning&lt;/li>
-&lt;li>Low damping materials (steel, ceramic)&lt;/li>
-&lt;li>Stable base&lt;/li>
-&lt;/ul>
-&lt;h3 id="excitation">
- Excitation
- 
- &lt;a class="anchor" href="#excitation">#&lt;/a>
- 
-&lt;/h3>
-&lt;ul>
-&lt;li>Small hammer or striker&lt;/li>
-&lt;li>Consistent force application&lt;/li>
-&lt;li>Appropriate for specimen size&lt;/li>
-&lt;li>Non-damaging&lt;/li>
-&lt;/ul>
-&lt;h3 id="sensors">
- Sensors
- 
- &lt;a class="anchor" href="#sensors">#&lt;/a>
- 
-&lt;/h3>
-&lt;ul>
-&lt;li>Accelerometer (preferred) or microphone&lt;/li>
-&lt;li>Adequate frequency response (0-10 kHz)&lt;/li>
-&lt;li>Good sensitivity&lt;/li>
-&lt;li>Secure mounting&lt;/li>
-&lt;/ul>
-&lt;h2 id="setup-procedure">
- Setup Procedure
- 
- &lt;a class="anchor" href="#setup-procedure">#&lt;/a>
- 
-&lt;/h2>
-&lt;h3 id="1-position-supports">
- 1. Position Supports
- 
- &lt;a class="anchor" href="#1-position-supports">#&lt;/a>
- 
-&lt;/h3>
-&lt;ul>
-&lt;li>Place supports at 0.224L from each end&lt;/li>
-&lt;li>Ensure level and stable positioning&lt;/li>
-&lt;li>Minimal contact area&lt;/li>
-&lt;li>Low damping materials&lt;/li>
-&lt;/ul>
-&lt;h3 id="2-mount-sensor">
- 2. Mount Sensor
- 
- &lt;a class="anchor" href="#2-mount-sensor">#&lt;/a>
- 
-&lt;/h3>
-&lt;ul>
-&lt;li>Position near center (anti-node)&lt;/li>
-&lt;li>Secure attachment&lt;/li>
-&lt;li>Minimal mass loading&lt;/li>
-&lt;li>Good electrical contact&lt;/li>
-&lt;/ul>
-&lt;h3 id="3-configure-software">
- 3. Configure Software
- 
- &lt;a class="anchor" href="#3-configure-software">#&lt;/a>
- 
-&lt;/h3>
-&lt;ul>
-&lt;li>Set sampling rate (10-50 kHz)&lt;/li>
-&lt;li>Configure FFT parameters&lt;/li>
-&lt;li>Set frequency range (0-10 kHz)&lt;/li>
-&lt;li>Enable peak detection&lt;/li>
-&lt;/ul>
-&lt;h3 id="4-test-system">
- 4. Test System
- 
- &lt;a class="anchor" href="#4-test-system">#&lt;/a>
- 
-&lt;/h3>
-&lt;ul>
-&lt;li>Verify sensor response&lt;/li>
-&lt;li>Check signal quality&lt;/li>
-&lt;li>Test excitation consistency&lt;/li>
-&lt;li>Validate software operation&lt;/li>
-&lt;/ul>
-&lt;h2 id="environmental-requirements">
- Environmental Requirements
- 
- &lt;a class="anchor" href="#environmental-requirements">#&lt;/a>
- 
-&lt;/h2>
-&lt;h3 id="temperature">
- Temperature
- 
- &lt;a class="anchor" href="#temperature">#&lt;/a>
- 
-&lt;/h3>
-&lt;ul>
-&lt;li>Stable temperature (±1°C)&lt;/li>
-&lt;li>Room temperature typical&lt;/li>
-&lt;li>Avoid drafts and heating/cooling&lt;/li>
-&lt;/ul>
-&lt;h3 id="vibration-isolation">
- Vibration Isolation
- 
- &lt;a class="anchor" href="#vibration-isolation">#&lt;/a>
- 
-&lt;/h3>
-&lt;ul>
-&lt;li>Stable surface&lt;/li>
-&lt;li>Minimal external vibrations&lt;/li>
-&lt;li>Vibration isolation table (optional)&lt;/li>
-&lt;/ul>
-&lt;h3 id="acoustic-environment">
- Acoustic Environment
- 
- &lt;a class="anchor" href="#acoustic-environment">#&lt;/a>
- 
-&lt;/h3>
-&lt;ul>
-&lt;li>Quiet environment&lt;/li>
-&lt;li>Minimal background noise&lt;/li>
-&lt;li>Consistent conditions&lt;/li>
-&lt;/ul>
-&lt;h2 id="calibration">
- Calibration
- 
- &lt;a class="anchor" href="#calibration">#&lt;/a>
- 
-&lt;/h2>
-&lt;h3 id="reference-materials">
- Reference Materials
- 
- &lt;a class="anchor" href="#reference-materials">#&lt;/a>
- 
-&lt;/h3>
-&lt;ul>
-&lt;li>Use certified reference specimens&lt;/li>
-&lt;li>Known elastic properties&lt;/li>
-&lt;li>Regular calibration schedule&lt;/li>
-&lt;li>Document calibration data&lt;/li>
-&lt;/ul>
-&lt;h3 id="system-verification">
- System Verification
- 
- &lt;a class="anchor" href="#system-verification">#&lt;/a>
- 
-&lt;/h3>
-&lt;ul>
-&lt;li>Test with reference specimen&lt;/li>
-&lt;li>Compare with certified values&lt;/li>
-&lt;li>Verify measurement accuracy&lt;/li>
-&lt;li>Document results&lt;/li>
-&lt;/ul>
-&lt;h2 id="troubleshooting-setup">
- Troubleshooting Setup
- 
- &lt;a class="anchor" href="#troubleshooting-setup">#&lt;/a>
- 
-&lt;/h2>
-&lt;h3 id="common-issues">
- Common Issues
- 
- &lt;a class="anchor" href="#common-issues">#&lt;/a>
- 
-&lt;/h3>
-&lt;ul>
-&lt;li>&lt;strong>Poor signal quality&lt;/strong>: Check sensor positioning and connections&lt;/li>
-&lt;li>&lt;strong>Inconsistent results&lt;/strong>: Verify support positioning and excitation&lt;/li>
-&lt;li>&lt;strong>No signal&lt;/strong>: Check sensor operation and connections&lt;/li>
-&lt;li>&lt;strong>Software errors&lt;/strong>: Verify configuration and restart if needed&lt;/li>
-&lt;/ul>
-&lt;h3 id="quality-checks">
- Quality Checks
- 
- &lt;a class="anchor" href="#quality-checks">#&lt;/a>
- 
-&lt;/h3>
-&lt;ul>
-&lt;li>Signal amplitude adequate&lt;/li>
-&lt;li>Clear frequency peaks&lt;/li>
-&lt;li>Consistent measurements&lt;/li>
-&lt;li>Proper peak identification&lt;/li>
-&lt;/ul></description></item><item><title>Measurement Procedure</title><link>https://grindosonic.github.io/wiki/docs/getting-started/measurement-procedure/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://grindosonic.github.io/wiki/docs/getting-started/measurement-procedure/</guid><description>&lt;h1 id="measurement-procedure">
- Measurement Procedure
- 
- &lt;a class="anchor" href="#measurement-procedure">#&lt;/a>
- 
-&lt;/h1>
-&lt;h2 id="pre-measurement-checklist">
- Pre-Measurement Checklist
- 
- &lt;a class="anchor" href="#pre-measurement-checklist">#&lt;/a>
- 
-&lt;/h2>
-&lt;ul>
-&lt;li>&lt;input disabled="" type="checkbox"> Sample dimensions measured accurately&lt;/li>
-&lt;li>&lt;input disabled="" type="checkbox"> Sample mass determined&lt;/li>
-&lt;li>&lt;input disabled="" type="checkbox"> Supports positioned correctly (0.224L)&lt;/li>
-&lt;li>&lt;input disabled="" type="checkbox"> Sensor functioning properly&lt;/li>
-&lt;li>&lt;input disabled="" type="checkbox"> Software configured&lt;/li>
-&lt;li>&lt;input disabled="" type="checkbox"> Environmental conditions stable&lt;/li>
-&lt;/ul>
-&lt;h2 id="step-by-step-process">
- Step-by-Step Process
- 
- &lt;a class="anchor" href="#step-by-step-process">#&lt;/a>
- 
-&lt;/h2>
-&lt;h3 id="1-sample-preparation">
- 1. Sample Preparation
- 
- &lt;a class="anchor" href="#1-sample-preparation">#&lt;/a>
- 
-&lt;/h3>
-&lt;ul>
-&lt;li>Measure dimensions (L, W, T) to ±0.01mm&lt;/li>
-&lt;li>Weigh sample to ±0.1mg&lt;/li>
-&lt;li>Check surface finish (Ra &amp;lt; 1.6 μm)&lt;/li>
-&lt;li>Verify sample condition (no cracks, defects)&lt;/li>
-&lt;/ul>
-&lt;h3 id="2-sample-placement">
- 2. Sample Placement
- 
- &lt;a class="anchor" href="#2-sample-placement">#&lt;/a>
- 
-&lt;/h3>
-&lt;ul>
-&lt;li>Position on supports at 0.224L from ends&lt;/li>
-&lt;li>Ensure stable contact&lt;/li>
-&lt;li>Check for rocking or movement&lt;/li>
-&lt;li>Verify level positioning&lt;/li>
-&lt;/ul>
-&lt;h3 id="3-sensor-positioning">
- 3. Sensor Positioning
- 
- &lt;a class="anchor" href="#3-sensor-positioning">#&lt;/a>
- 
-&lt;/h3>
-&lt;ul>
-&lt;li>Mount accelerometer near center&lt;/li>
-&lt;li>Ensure secure attachment&lt;/li>
-&lt;li>Check electrical connections&lt;/li>
-&lt;li>Verify signal level&lt;/li>
-&lt;/ul>
-&lt;h3 id="4-excitation">
- 4. Excitation
- 
- &lt;a class="anchor" href="#4-excitation">#&lt;/a>
- 
-&lt;/h3>
-&lt;ul>
-&lt;li>Apply impulse near center&lt;/li>
-&lt;li>Use consistent force&lt;/li>
-&lt;li>Strike perpendicular to surface&lt;/li>
-&lt;li>Allow free vibration&lt;/li>
-&lt;/ul>
-&lt;h3 id="5-data-acquisition">
- 5. Data Acquisition
- 
- &lt;a class="anchor" href="#5-data-acquisition">#&lt;/a>
- 
-&lt;/h3>
-&lt;ul>
-&lt;li>Start recording before excitation&lt;/li>
-&lt;li>Record for 1-2 seconds&lt;/li>
-&lt;li>Monitor signal quality&lt;/li>
-&lt;li>Stop recording when complete&lt;/li>
-&lt;/ul>
-&lt;h3 id="6-signal-processing">
- 6. Signal Processing
- 
- &lt;a class="anchor" href="#6-signal-processing">#&lt;/a>
- 
-&lt;/h3>
-&lt;ul>
-&lt;li>Apply window function (Hanning)&lt;/li>
-&lt;li>Perform FFT analysis&lt;/li>
-&lt;li>Identify natural frequencies&lt;/li>
-&lt;li>Measure peak frequencies&lt;/li>
-&lt;/ul>
-&lt;h3 id="7-property-calculation">
- 7. Property Calculation
- 
- &lt;a class="anchor" href="#7-property-calculation">#&lt;/a>
- 
-&lt;/h3>
-&lt;ul>
-&lt;li>Calculate Young&amp;rsquo;s modulus from flexural frequency&lt;/li>
-&lt;li>Calculate shear modulus from torsional frequency&lt;/li>
-&lt;li>Calculate Poisson&amp;rsquo;s ratio from E and G&lt;/li>
-&lt;li>Verify results are reasonable&lt;/li>
-&lt;/ul>
-&lt;h2 id="quality-control">
- Quality Control
- 
- &lt;a class="anchor" href="#quality-control">#&lt;/a>
- 
-&lt;/h2>
-&lt;h3 id="multiple-measurements">
- Multiple Measurements
- 
- &lt;a class="anchor" href="#multiple-measurements">#&lt;/a>
- 
-&lt;/h3>
-&lt;ul>
-&lt;li>Perform 3-5 measurements&lt;/li>
-&lt;li>Calculate mean and standard deviation&lt;/li>
-&lt;li>Check for outliers&lt;/li>
-&lt;li>Verify consistency&lt;/li>
-&lt;/ul>
-&lt;h3 id="validation">
- Validation
- 
- &lt;a class="anchor" href="#validation">#&lt;/a>
- 
-&lt;/h3>
-&lt;ul>
-&lt;li>Compare with literature values&lt;/li>
-&lt;li>Test with reference materials&lt;/li>
-&lt;li>Check temperature effects&lt;/li>
-&lt;li>Verify material behavior&lt;/li>
-&lt;/ul>
-&lt;h2 id="data-recording">
- Data Recording
- 
- &lt;a class="anchor" href="#data-recording">#&lt;/a>
- 
-&lt;/h2>
-&lt;h3 id="required-information">
- Required Information
- 
- &lt;a class="anchor" href="#required-information">#&lt;/a>
- 
-&lt;/h3>
-&lt;ul>
-&lt;li>Sample identification&lt;/li>
-&lt;li>Dimensions and mass&lt;/li>
-&lt;li>Environmental conditions&lt;/li>
-&lt;li>Measurement parameters&lt;/li>
-&lt;li>Calculated properties&lt;/li>
-&lt;li>Uncertainty values&lt;/li>
-&lt;/ul>
-&lt;h3 id="file-organization">
- File Organization
- 
- &lt;a class="anchor" href="#file-organization">#&lt;/a>
- 
-&lt;/h3>
-&lt;ul>
-&lt;li>Raw time domain signals&lt;/li>
-&lt;li>Processed frequency spectra&lt;/li>
-&lt;li>Calculated properties&lt;/li>
-&lt;li>Measurement logs&lt;/li>
-&lt;li>Calibration data&lt;/li>
-&lt;/ul>
-&lt;h2 id="common-mistakes">
- Common Mistakes
- 
- &lt;a class="anchor" href="#common-mistakes">#&lt;/a>
- 
-&lt;/h2>
-&lt;ul>
-&lt;li>Incorrect support positioning&lt;/li>
-&lt;li>Insufficient excitation force&lt;/li>
-&lt;li>Poor sensor positioning&lt;/li>
-&lt;li>Inadequate signal processing&lt;/li>
-&lt;li>Ignoring environmental effects&lt;/li>
-&lt;/ul></description></item><item><title>Data Analysis</title><link>https://grindosonic.github.io/wiki/docs/getting-started/data-analysis/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://grindosonic.github.io/wiki/docs/getting-started/data-analysis/</guid><description>&lt;h1 id="data-analysis">
- Data Analysis
- 
- &lt;a class="anchor" href="#data-analysis">#&lt;/a>
- 
-&lt;/h1>
-&lt;h2 id="signal-processing">
- Signal Processing
- 
- &lt;a class="anchor" href="#signal-processing">#&lt;/a>
- 
-&lt;/h2>
-&lt;h3 id="fft-analysis">
- FFT Analysis
- 
- &lt;a class="anchor" href="#fft-analysis">#&lt;/a>
- 
-&lt;/h3>
-&lt;ul>
-&lt;li>&lt;strong>Window function&lt;/strong>: Hanning (recommended)&lt;/li>
-&lt;li>&lt;strong>FFT size&lt;/strong>: 4096-16384 points&lt;/li>
-&lt;li>&lt;strong>Frequency resolution&lt;/strong>: 0.1-1 Hz typical&lt;/li>
-&lt;li>&lt;strong>Overlap&lt;/strong>: 50% for averaging&lt;/li>
-&lt;/ul>
-&lt;h3 id="peak-identification">
- Peak Identification
- 
- &lt;a class="anchor" href="#peak-identification">#&lt;/a>
- 
-&lt;/h3>
-&lt;ul>
-&lt;li>&lt;strong>Flexural mode&lt;/strong>: First peak in spectrum&lt;/li>
-&lt;li>&lt;strong>Torsional mode&lt;/strong>: Second peak (if present)&lt;/li>
-&lt;li>&lt;strong>Peak sharpness&lt;/strong>: Indicates damping&lt;/li>
-&lt;li>&lt;strong>Signal-to-noise&lt;/strong>: Should be &amp;gt;10:1&lt;/li>
-&lt;/ul>
-&lt;h2 id="property-calculations">
- Property Calculations
- 
- &lt;a class="anchor" href="#property-calculations">#&lt;/a>
- 
-&lt;/h2>
-&lt;h3 id="youngs-modulus-e">
- Young&amp;rsquo;s Modulus (E)
- 
- &lt;a class="anchor" href="#youngs-modulus-e">#&lt;/a>
- 
-&lt;/h3>
-&lt;pre tabindex="0">&lt;code>E = (4π² × ρ × L⁴ × f_f²) / (k_f × t²)
-&lt;/code>&lt;/pre>&lt;p>Where:&lt;/p></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Docs on GrindoSonic Wiki</title>
+    <link>http://localhost:1313/wiki/</link>
+    <description>Recent content in Docs on GrindoSonic Wiki</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:1313/wiki/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Grinding Wheels: The Foundation of Impulse Excitation</title>
+      <link>http://localhost:1313/wiki/docs/applications/grinding-wheels/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/wiki/docs/applications/grinding-wheels/</guid>
+      <description>&lt;h1 id=&#34;key-takeaways&#34;&gt;&#xA;  Key Takeaways&#xA;  &#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#key-takeaways&#34;&gt;#&lt;/a&gt;&#xA;  &#xA;&lt;/h1&gt;&#xA;&lt;p&gt;Grinding wheels made it clear: why impulse excitation works is simple—it reveals internal integrity with a single tap.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Grinding performance is tightly linked to stiffness&lt;/li&gt;&#xA;&lt;li&gt;Even small deviations in material properties affect tool life, safety, and finish quality&lt;/li&gt;&#xA;&lt;li&gt;Impulse excitation measures exact stiffness through resonance, mass, and dimensions&lt;/li&gt;&#xA;&lt;li&gt;It reveals hidden flaws without damaging the disc&lt;/li&gt;&#xA;&lt;li&gt;This foundational use case launched GrindoSonic&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;why-tapping-grinding-wheels-mattered-first&#34;&gt;&#xA;  Why Tapping Grinding Wheels Mattered First&#xA;  &#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#why-tapping-grinding-wheels-mattered-first&#34;&gt;#&lt;/a&gt;&#xA;  &#xA;&lt;/h2&gt;&#xA;&lt;p&gt;In high-speed grinding, precision is everything. A wheel that&amp;rsquo;s too soft burns the part. Too hard, and it shatters. Even surface finish and tool wear are affected by stiffness. That&amp;rsquo;s why in the early days of GrindoSonic, this was where the need for non-destructive testing was too strong to ignore.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Equipment Setup</title>
+      <link>http://localhost:1313/wiki/docs/getting-started/equipment-setup/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/wiki/docs/getting-started/equipment-setup/</guid>
+      <description>&lt;h1 id=&#34;equipment-setup&#34;&gt;&#xA;  Equipment Setup&#xA;  &#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#equipment-setup&#34;&gt;#&lt;/a&gt;&#xA;  &#xA;&lt;/h1&gt;&#xA;&lt;h2 id=&#34;system-components&#34;&gt;&#xA;  System Components&#xA;  &#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#system-components&#34;&gt;#&lt;/a&gt;&#xA;  &#xA;&lt;/h2&gt;&#xA;&lt;h3 id=&#34;main-unit&#34;&gt;&#xA;  Main Unit&#xA;  &#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#main-unit&#34;&gt;#&lt;/a&gt;&#xA;  &#xA;&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Impulse excitation measurement system&lt;/li&gt;&#xA;&lt;li&gt;Data acquisition hardware&lt;/li&gt;&#xA;&lt;li&gt;Analysis software&lt;/li&gt;&#xA;&lt;li&gt;Display and controls&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;support-system&#34;&gt;&#xA;  Support System&#xA;  &#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#support-system&#34;&gt;#&lt;/a&gt;&#xA;  &#xA;&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Two support points (knife-edge or point supports)&lt;/li&gt;&#xA;&lt;li&gt;Adjustable positioning&lt;/li&gt;&#xA;&lt;li&gt;Low damping materials (steel, ceramic)&lt;/li&gt;&#xA;&lt;li&gt;Stable base&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;excitation&#34;&gt;&#xA;  Excitation&#xA;  &#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#excitation&#34;&gt;#&lt;/a&gt;&#xA;  &#xA;&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Small hammer or striker&lt;/li&gt;&#xA;&lt;li&gt;Consistent force application&lt;/li&gt;&#xA;&lt;li&gt;Appropriate for specimen size&lt;/li&gt;&#xA;&lt;li&gt;Non-damaging&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;sensors&#34;&gt;&#xA;  Sensors&#xA;  &#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#sensors&#34;&gt;#&lt;/a&gt;&#xA;  &#xA;&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Accelerometer (preferred) or microphone&lt;/li&gt;&#xA;&lt;li&gt;Adequate frequency response (0-10 kHz)&lt;/li&gt;&#xA;&lt;li&gt;Good sensitivity&lt;/li&gt;&#xA;&lt;li&gt;Secure mounting&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;setup-procedure&#34;&gt;&#xA;  Setup Procedure&#xA;  &#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#setup-procedure&#34;&gt;#&lt;/a&gt;&#xA;  &#xA;&lt;/h2&gt;&#xA;&lt;h3 id=&#34;1-position-supports&#34;&gt;&#xA;  1. Position Supports&#xA;  &#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#1-position-supports&#34;&gt;#&lt;/a&gt;&#xA;  &#xA;&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Place supports at 0.224L from each end&lt;/li&gt;&#xA;&lt;li&gt;Ensure level and stable positioning&lt;/li&gt;&#xA;&lt;li&gt;Minimal contact area&lt;/li&gt;&#xA;&lt;li&gt;Low damping materials&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;2-mount-sensor&#34;&gt;&#xA;  2. Mount Sensor&#xA;  &#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#2-mount-sensor&#34;&gt;#&lt;/a&gt;&#xA;  &#xA;&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Position near center (anti-node)&lt;/li&gt;&#xA;&lt;li&gt;Secure attachment&lt;/li&gt;&#xA;&lt;li&gt;Minimal mass loading&lt;/li&gt;&#xA;&lt;li&gt;Good electrical contact&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;3-configure-software&#34;&gt;&#xA;  3. Configure Software&#xA;  &#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#3-configure-software&#34;&gt;#&lt;/a&gt;&#xA;  &#xA;&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Set sampling rate (10-50 kHz)&lt;/li&gt;&#xA;&lt;li&gt;Configure FFT parameters&lt;/li&gt;&#xA;&lt;li&gt;Set frequency range (0-10 kHz)&lt;/li&gt;&#xA;&lt;li&gt;Enable peak detection&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;4-test-system&#34;&gt;&#xA;  4. Test System&#xA;  &#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#4-test-system&#34;&gt;#&lt;/a&gt;&#xA;  &#xA;&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Verify sensor response&lt;/li&gt;&#xA;&lt;li&gt;Check signal quality&lt;/li&gt;&#xA;&lt;li&gt;Test excitation consistency&lt;/li&gt;&#xA;&lt;li&gt;Validate software operation&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;environmental-requirements&#34;&gt;&#xA;  Environmental Requirements&#xA;  &#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#environmental-requirements&#34;&gt;#&lt;/a&gt;&#xA;  &#xA;&lt;/h2&gt;&#xA;&lt;h3 id=&#34;temperature&#34;&gt;&#xA;  Temperature&#xA;  &#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#temperature&#34;&gt;#&lt;/a&gt;&#xA;  &#xA;&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Stable temperature (±1°C)&lt;/li&gt;&#xA;&lt;li&gt;Room temperature typical&lt;/li&gt;&#xA;&lt;li&gt;Avoid drafts and heating/cooling&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;vibration-isolation&#34;&gt;&#xA;  Vibration Isolation&#xA;  &#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#vibration-isolation&#34;&gt;#&lt;/a&gt;&#xA;  &#xA;&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Stable surface&lt;/li&gt;&#xA;&lt;li&gt;Minimal external vibrations&lt;/li&gt;&#xA;&lt;li&gt;Vibration isolation table (optional)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;acoustic-environment&#34;&gt;&#xA;  Acoustic Environment&#xA;  &#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#acoustic-environment&#34;&gt;#&lt;/a&gt;&#xA;  &#xA;&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Quiet environment&lt;/li&gt;&#xA;&lt;li&gt;Minimal background noise&lt;/li&gt;&#xA;&lt;li&gt;Consistent conditions&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;calibration&#34;&gt;&#xA;  Calibration&#xA;  &#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#calibration&#34;&gt;#&lt;/a&gt;&#xA;  &#xA;&lt;/h2&gt;&#xA;&lt;h3 id=&#34;reference-materials&#34;&gt;&#xA;  Reference Materials&#xA;  &#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#reference-materials&#34;&gt;#&lt;/a&gt;&#xA;  &#xA;&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Use certified reference specimens&lt;/li&gt;&#xA;&lt;li&gt;Known elastic properties&lt;/li&gt;&#xA;&lt;li&gt;Regular calibration schedule&lt;/li&gt;&#xA;&lt;li&gt;Document calibration data&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;system-verification&#34;&gt;&#xA;  System Verification&#xA;  &#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#system-verification&#34;&gt;#&lt;/a&gt;&#xA;  &#xA;&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Test with reference specimen&lt;/li&gt;&#xA;&lt;li&gt;Compare with certified values&lt;/li&gt;&#xA;&lt;li&gt;Verify measurement accuracy&lt;/li&gt;&#xA;&lt;li&gt;Document results&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;troubleshooting-setup&#34;&gt;&#xA;  Troubleshooting Setup&#xA;  &#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#troubleshooting-setup&#34;&gt;#&lt;/a&gt;&#xA;  &#xA;&lt;/h2&gt;&#xA;&lt;h3 id=&#34;common-issues&#34;&gt;&#xA;  Common Issues&#xA;  &#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#common-issues&#34;&gt;#&lt;/a&gt;&#xA;  &#xA;&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Poor signal quality&lt;/strong&gt;: Check sensor positioning and connections&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Inconsistent results&lt;/strong&gt;: Verify support positioning and excitation&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;No signal&lt;/strong&gt;: Check sensor operation and connections&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Software errors&lt;/strong&gt;: Verify configuration and restart if needed&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;quality-checks&#34;&gt;&#xA;  Quality Checks&#xA;  &#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#quality-checks&#34;&gt;#&lt;/a&gt;&#xA;  &#xA;&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Signal amplitude adequate&lt;/li&gt;&#xA;&lt;li&gt;Clear frequency peaks&lt;/li&gt;&#xA;&lt;li&gt;Consistent measurements&lt;/li&gt;&#xA;&lt;li&gt;Proper peak identification&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Measurement Procedure</title>
+      <link>http://localhost:1313/wiki/docs/getting-started/measurement-procedure/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/wiki/docs/getting-started/measurement-procedure/</guid>
+      <description>&lt;h1 id=&#34;measurement-procedure&#34;&gt;&#xA;  Measurement Procedure&#xA;  &#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#measurement-procedure&#34;&gt;#&lt;/a&gt;&#xA;  &#xA;&lt;/h1&gt;&#xA;&lt;h2 id=&#34;pre-measurement-checklist&#34;&gt;&#xA;  Pre-Measurement Checklist&#xA;  &#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#pre-measurement-checklist&#34;&gt;#&lt;/a&gt;&#xA;  &#xA;&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Sample dimensions measured accurately&lt;/li&gt;&#xA;&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Sample mass determined&lt;/li&gt;&#xA;&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Supports positioned correctly (0.224L)&lt;/li&gt;&#xA;&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Sensor functioning properly&lt;/li&gt;&#xA;&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Software configured&lt;/li&gt;&#xA;&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Environmental conditions stable&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;step-by-step-process&#34;&gt;&#xA;  Step-by-Step Process&#xA;  &#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#step-by-step-process&#34;&gt;#&lt;/a&gt;&#xA;  &#xA;&lt;/h2&gt;&#xA;&lt;h3 id=&#34;1-sample-preparation&#34;&gt;&#xA;  1. Sample Preparation&#xA;  &#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#1-sample-preparation&#34;&gt;#&lt;/a&gt;&#xA;  &#xA;&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Measure dimensions (L, W, T) to ±0.01mm&lt;/li&gt;&#xA;&lt;li&gt;Weigh sample to ±0.1mg&lt;/li&gt;&#xA;&lt;li&gt;Check surface finish (Ra &amp;lt; 1.6 μm)&lt;/li&gt;&#xA;&lt;li&gt;Verify sample condition (no cracks, defects)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;2-sample-placement&#34;&gt;&#xA;  2. Sample Placement&#xA;  &#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#2-sample-placement&#34;&gt;#&lt;/a&gt;&#xA;  &#xA;&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Position on supports at 0.224L from ends&lt;/li&gt;&#xA;&lt;li&gt;Ensure stable contact&lt;/li&gt;&#xA;&lt;li&gt;Check for rocking or movement&lt;/li&gt;&#xA;&lt;li&gt;Verify level positioning&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;3-sensor-positioning&#34;&gt;&#xA;  3. Sensor Positioning&#xA;  &#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#3-sensor-positioning&#34;&gt;#&lt;/a&gt;&#xA;  &#xA;&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Mount accelerometer near center&lt;/li&gt;&#xA;&lt;li&gt;Ensure secure attachment&lt;/li&gt;&#xA;&lt;li&gt;Check electrical connections&lt;/li&gt;&#xA;&lt;li&gt;Verify signal level&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;4-excitation&#34;&gt;&#xA;  4. Excitation&#xA;  &#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#4-excitation&#34;&gt;#&lt;/a&gt;&#xA;  &#xA;&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Apply impulse near center&lt;/li&gt;&#xA;&lt;li&gt;Use consistent force&lt;/li&gt;&#xA;&lt;li&gt;Strike perpendicular to surface&lt;/li&gt;&#xA;&lt;li&gt;Allow free vibration&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;5-data-acquisition&#34;&gt;&#xA;  5. Data Acquisition&#xA;  &#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#5-data-acquisition&#34;&gt;#&lt;/a&gt;&#xA;  &#xA;&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Start recording before excitation&lt;/li&gt;&#xA;&lt;li&gt;Record for 1-2 seconds&lt;/li&gt;&#xA;&lt;li&gt;Monitor signal quality&lt;/li&gt;&#xA;&lt;li&gt;Stop recording when complete&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;6-signal-processing&#34;&gt;&#xA;  6. Signal Processing&#xA;  &#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#6-signal-processing&#34;&gt;#&lt;/a&gt;&#xA;  &#xA;&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Apply window function (Hanning)&lt;/li&gt;&#xA;&lt;li&gt;Perform FFT analysis&lt;/li&gt;&#xA;&lt;li&gt;Identify natural frequencies&lt;/li&gt;&#xA;&lt;li&gt;Measure peak frequencies&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;7-property-calculation&#34;&gt;&#xA;  7. Property Calculation&#xA;  &#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#7-property-calculation&#34;&gt;#&lt;/a&gt;&#xA;  &#xA;&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Calculate Young&amp;rsquo;s modulus from flexural frequency&lt;/li&gt;&#xA;&lt;li&gt;Calculate shear modulus from torsional frequency&lt;/li&gt;&#xA;&lt;li&gt;Calculate Poisson&amp;rsquo;s ratio from E and G&lt;/li&gt;&#xA;&lt;li&gt;Verify results are reasonable&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;quality-control&#34;&gt;&#xA;  Quality Control&#xA;  &#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#quality-control&#34;&gt;#&lt;/a&gt;&#xA;  &#xA;&lt;/h2&gt;&#xA;&lt;h3 id=&#34;multiple-measurements&#34;&gt;&#xA;  Multiple Measurements&#xA;  &#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#multiple-measurements&#34;&gt;#&lt;/a&gt;&#xA;  &#xA;&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Perform 3-5 measurements&lt;/li&gt;&#xA;&lt;li&gt;Calculate mean and standard deviation&lt;/li&gt;&#xA;&lt;li&gt;Check for outliers&lt;/li&gt;&#xA;&lt;li&gt;Verify consistency&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;validation&#34;&gt;&#xA;  Validation&#xA;  &#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#validation&#34;&gt;#&lt;/a&gt;&#xA;  &#xA;&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Compare with literature values&lt;/li&gt;&#xA;&lt;li&gt;Test with reference materials&lt;/li&gt;&#xA;&lt;li&gt;Check temperature effects&lt;/li&gt;&#xA;&lt;li&gt;Verify material behavior&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;data-recording&#34;&gt;&#xA;  Data Recording&#xA;  &#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#data-recording&#34;&gt;#&lt;/a&gt;&#xA;  &#xA;&lt;/h2&gt;&#xA;&lt;h3 id=&#34;required-information&#34;&gt;&#xA;  Required Information&#xA;  &#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#required-information&#34;&gt;#&lt;/a&gt;&#xA;  &#xA;&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Sample identification&lt;/li&gt;&#xA;&lt;li&gt;Dimensions and mass&lt;/li&gt;&#xA;&lt;li&gt;Environmental conditions&lt;/li&gt;&#xA;&lt;li&gt;Measurement parameters&lt;/li&gt;&#xA;&lt;li&gt;Calculated properties&lt;/li&gt;&#xA;&lt;li&gt;Uncertainty values&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;file-organization&#34;&gt;&#xA;  File Organization&#xA;  &#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#file-organization&#34;&gt;#&lt;/a&gt;&#xA;  &#xA;&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Raw time domain signals&lt;/li&gt;&#xA;&lt;li&gt;Processed frequency spectra&lt;/li&gt;&#xA;&lt;li&gt;Calculated properties&lt;/li&gt;&#xA;&lt;li&gt;Measurement logs&lt;/li&gt;&#xA;&lt;li&gt;Calibration data&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;common-mistakes&#34;&gt;&#xA;  Common Mistakes&#xA;  &#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#common-mistakes&#34;&gt;#&lt;/a&gt;&#xA;  &#xA;&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Incorrect support positioning&lt;/li&gt;&#xA;&lt;li&gt;Insufficient excitation force&lt;/li&gt;&#xA;&lt;li&gt;Poor sensor positioning&lt;/li&gt;&#xA;&lt;li&gt;Inadequate signal processing&lt;/li&gt;&#xA;&lt;li&gt;Ignoring environmental effects&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Data Analysis</title>
+      <link>http://localhost:1313/wiki/docs/getting-started/data-analysis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/wiki/docs/getting-started/data-analysis/</guid>
+      <description>&lt;h1 id=&#34;data-analysis&#34;&gt;&#xA;  Data Analysis&#xA;  &#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#data-analysis&#34;&gt;#&lt;/a&gt;&#xA;  &#xA;&lt;/h1&gt;&#xA;&lt;h2 id=&#34;signal-processing&#34;&gt;&#xA;  Signal Processing&#xA;  &#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#signal-processing&#34;&gt;#&lt;/a&gt;&#xA;  &#xA;&lt;/h2&gt;&#xA;&lt;h3 id=&#34;fft-analysis&#34;&gt;&#xA;  FFT Analysis&#xA;  &#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#fft-analysis&#34;&gt;#&lt;/a&gt;&#xA;  &#xA;&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Window function&lt;/strong&gt;: Hanning (recommended)&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;FFT size&lt;/strong&gt;: 4096-16384 points&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Frequency resolution&lt;/strong&gt;: 0.1-1 Hz typical&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Overlap&lt;/strong&gt;: 50% for averaging&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;peak-identification&#34;&gt;&#xA;  Peak Identification&#xA;  &#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#peak-identification&#34;&gt;#&lt;/a&gt;&#xA;  &#xA;&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Flexural mode&lt;/strong&gt;: First peak in spectrum&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Torsional mode&lt;/strong&gt;: Second peak (if present)&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Peak sharpness&lt;/strong&gt;: Indicates damping&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Signal-to-noise&lt;/strong&gt;: Should be &amp;gt;10:1&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;property-calculations&#34;&gt;&#xA;  Property Calculations&#xA;  &#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#property-calculations&#34;&gt;#&lt;/a&gt;&#xA;  &#xA;&lt;/h2&gt;&#xA;&lt;h3 id=&#34;youngs-modulus-e&#34;&gt;&#xA;  Young&amp;rsquo;s Modulus (E)&#xA;  &#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#youngs-modulus-e&#34;&gt;#&lt;/a&gt;&#xA;  &#xA;&lt;/h3&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;E = (4π² × ρ × L⁴ × f_f²) / (k_f × t²)&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Where:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Non-Destructive Testing in Additive Manufacturing</title>
+      <link>http://localhost:1313/wiki/docs/applications/ndt-additive-manufacturing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/wiki/docs/applications/ndt-additive-manufacturing/</guid>
+      <description>&lt;h1 id=&#34;key-takeaways&#34;&gt;&#xA;  Key Takeaways&#xA;  &#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#key-takeaways&#34;&gt;#&lt;/a&gt;&#xA;  &#xA;&lt;/h1&gt;&#xA;&lt;p&gt;Non-destructive testing (NDT) is essential for ensuring the reliability and safety of additive manufacturing (AM) components, reducing risk in critical applications.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Integrating non-destructive testing into the additive manufacturing workflow enables rapid feedback and continuous process improvement, lowering production costs and improving part performance&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;understanding-additive-manufacturing-and-its-unique-risks&#34;&gt;&#xA;  Understanding Additive Manufacturing and Its Unique Risks&#xA;  &#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#understanding-additive-manufacturing-and-its-unique-risks&#34;&gt;#&lt;/a&gt;&#xA;  &#xA;&lt;/h2&gt;&#xA;&lt;p&gt;Additive manufacturing, commonly known as 3D printing, has revolutionized the way industries design and produce components. From aerospace and automotive to healthcare and consumer goods, AM enables the creation of complex geometries and lightweight structures previously unimaginable. However, despite its advantages, additive manufacturing introduces inherent risks and challenges related to material integrity, repeatability, and process control.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Resonance Frequency Testing</title>
+      <link>http://localhost:1313/wiki/docs/how-it-works/resonance-frequency-testing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/wiki/docs/how-it-works/resonance-frequency-testing/</guid>
+      <description>&lt;h1 id=&#34;key-takeaways&#34;&gt;&#xA;  Key Takeaways&#xA;  &#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#key-takeaways&#34;&gt;#&lt;/a&gt;&#xA;  &#xA;&lt;/h1&gt;&#xA;&lt;p&gt;A simple mechanical impulse exposes how strongly a material resists internal motion.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;The resulting vibration patterns reveal stiffness, bonding quality, and hidden flaws&lt;/li&gt;&#xA;&lt;li&gt;This technique works without cutting, breaking, or altering the part&lt;/li&gt;&#xA;&lt;li&gt;It&amp;rsquo;s used in aerospace, automotive, additive manufacturing, and even product authentication&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;why-tapping-matters&#34;&gt;&#xA;  Why Tapping Matters&#xA;  &#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#why-tapping-matters&#34;&gt;#&lt;/a&gt;&#xA;  &#xA;&lt;/h2&gt;&#xA;&lt;p&gt;Most parts don&amp;rsquo;t fail because they look wrong—they fail because something inside them isn&amp;rsquo;t right. Cracks, voids, weak bonds, or uneven stiffness—these internal inconsistencies often go undetected until it&amp;rsquo;s too late. Destructive tests help, but they destroy the part and only tell you about the one you tested—not the one going into service.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Non-Destructive Material Testing: An Overview</title>
+      <link>http://localhost:1313/wiki/docs/getting-started/non-destructive-testing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/wiki/docs/getting-started/non-destructive-testing/</guid>
+      <description>&lt;h1 id=&#34;key-takeaways&#34;&gt;&#xA;  Key Takeaways&#xA;  &#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#key-takeaways&#34;&gt;#&lt;/a&gt;&#xA;  &#xA;&lt;/h1&gt;&#xA;&lt;p&gt;Non-destructive material testing (NDT) ensures product integrity by detecting flaws or inconsistencies without damaging the original material.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Implementing NDT methods like ultrasonic, radiographic, and eddy current testing improves product reliability and reduces costly failures in service&lt;/li&gt;&#xA;&lt;li&gt;Integrating NDT into quality control processes in manufacturing leads to safer, higher-quality products and increased customer trust&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;understanding-non-destructive-material-testing&#34;&gt;&#xA;  Understanding Non-Destructive Material Testing&#xA;  &#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#understanding-non-destructive-material-testing&#34;&gt;#&lt;/a&gt;&#xA;  &#xA;&lt;/h2&gt;&#xA;&lt;p&gt;Non-destructive material testing (NDT) encompasses a range of techniques used to analyze the properties of a material, component, or system without causing any permanent alteration or damage. This vital process is widely used in industries such as aerospace, automotive, construction, and manufacturing to ensure that products meet stringent safety and quality standards while preserving their usability.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Tapping Test Method</title>
+      <link>http://localhost:1313/wiki/docs/how-it-works/tapping-test-method/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/wiki/docs/how-it-works/tapping-test-method/</guid>
+      <description>&lt;h1 id=&#34;key-takeaways&#34;&gt;&#xA;  Key Takeaways&#xA;  &#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#key-takeaways&#34;&gt;#&lt;/a&gt;&#xA;  &#xA;&lt;/h1&gt;&#xA;&lt;p&gt;Tapping materials is a quick, non-destructive method to assess their internal strength and structural integrity.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;The tapping test method reveals defects like cracks, voids, or changes in density, helping prevent future failures&lt;/li&gt;&#xA;&lt;li&gt;Industrial applications rely on tapping tests for quality control, ensuring safety in construction, manufacturing, and material science&lt;/li&gt;&#xA;&lt;li&gt;Modern techniques like Impulse Excitation Technique (IET) make tapping tests more precise, providing vital data on Young&amp;rsquo;s modulus and other mechanical properties&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;unveiling-material-strength-why-the-tapping-method-matters&#34;&gt;&#xA;  Unveiling Material Strength: Why the Tapping Method Matters&#xA;  &#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#unveiling-material-strength-why-the-tapping-method-matters&#34;&gt;#&lt;/a&gt;&#xA;  &#xA;&lt;/h2&gt;&#xA;&lt;p&gt;Materials are everywhere in our daily lives—from the concrete beneath our feet to the ceramics and metals in high-tech industries. Understanding a material&amp;rsquo;s inner strength is essential to guarantee safety, durability, and optimal performance. One of the most widely-used techniques for evaluating the integrity of materials is the simple yet powerful act of tapping. But why do we tap materials, and what secrets do these taps reveal?&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>IET vs Destructive Testing</title>
+      <link>http://localhost:1313/wiki/docs/how-it-works/iet-vs-destructive-testing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/wiki/docs/how-it-works/iet-vs-destructive-testing/</guid>
+      <description>&lt;h1 id=&#34;key-takeaways&#34;&gt;&#xA;  Key Takeaways&#xA;  &#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#key-takeaways&#34;&gt;#&lt;/a&gt;&#xA;  &#xA;&lt;/h1&gt;&#xA;&lt;p&gt;Impulse Excitation Technique (IET) delivers accurate, non-destructive measurement of material properties such as Young&amp;rsquo;s modulus, enabling efficient quality control without compromising sample integrity.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Destructive testing destroys the sample to determine its mechanical properties, often resulting in higher material costs and waste for routine testing tasks&lt;/li&gt;&#xA;&lt;li&gt;IET offers rapid, repeatable results and is ideal for both metals and ceramics, streamlining workflows compared to the labor-intensive nature of destructive tests&lt;/li&gt;&#xA;&lt;li&gt;Choosing between impulse excitation and destructive testing depends on your need for sample preservation, test accuracy, speed, and compliance requirements&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;understanding-impulse-excitation-a-modern-take-on-non-destructive-testing&#34;&gt;&#xA;  Understanding Impulse Excitation: A Modern Take on Non-Destructive Testing&#xA;  &#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#understanding-impulse-excitation-a-modern-take-on-non-destructive-testing&#34;&gt;#&lt;/a&gt;&#xA;  &#xA;&lt;/h2&gt;&#xA;&lt;p&gt;Impulse Excitation Technique (IET) has quickly become a preferred method for measuring the mechanical properties of solids in laboratories and production environments. Unlike traditional mechanical tests that compromise or destroy the sample, IET leverages the natural resonance of a material to determine key properties such as Young&amp;rsquo;s modulus, shear modulus, Poisson&amp;rsquo;s Ratio and internal friction.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
